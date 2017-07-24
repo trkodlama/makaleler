@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-07-20 21:11:58
 ---
-Uzun zamandır Ubuntu kullanmayınca epey a paslanmışım haliyle. Az önce bir problem yaşadım. <strong>uglifyjs</strong> kullanmak istedim fakat o da ne! Kurulumu bir türlü tamamlayamadım. Uglifyjs'i Node.JS aracılığıyla rahatlıkla edinebilirsiniz. Peki node.js nedir? Kısaca ona değinelim.
+Uzun zamandır Ubuntu kullanmayınca epey paslanmışım haliyle. Az önce bir problem yaşadım. <strong>uglifyjs</strong> kullanmak istedim fakat o da ne! Kurulumu bir türlü tamamlayamadım. Uglifyjs'i Node.JS aracılığıyla rahatlıkla edinebilirsiniz. Peki node.js nedir? Kısaca ona değinelim.
 <blockquote>
 <h3>node.js Nedir?</h3>
 <b>NodeJS</b>, Chrome web tarayıcısının da üzerinde çalıştığı gibi, V8 javascript motoru üzerinde çalışan, event-driven, nonblocking I/O modeli kullanan, ölçeklenebilir uygulamalar geliştirmek için dizayn edilmiş bir platformdur.</blockquote>
