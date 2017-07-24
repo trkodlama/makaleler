@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2009-01-21 06:18:48
 ---
-İnternette en çok duyduğum konu PHP'de linkleri nasıl SEF yani Search Engine Friendly  haline getirebiliriz. Bunu size PHP ile nasıl halledeceğinizden bahsetmek istiyorum. Hatta bahsetmiyorum direkt olarak kullanmanız gereken fonksiyonu sizlerle paylaşıyorum:
+İternette en çok duyduğum konu PHP'de linkleri nasıl SEF yani Search Engine Friendly  haline getirebiliriz. Bunu size PHP ile nasıl halledeceğinizden bahsetmek istiyorum. Hatta bahsetmiyorum direkt olarak kullanmanız gereken fonksiyonu sizlerle paylaşıyorum:
 <pre class="prettyprint" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">function Slug($string)
     {
         $turkce=array("ş", "Ş", "ı", "ü", "Ü", "ö", "Ö", "ç", "Ç", "ş", "Ş", "ı", "ğ", "Ğ", "İ", "ö", "Ö", "Ç", "ç", "ü", "Ü");
