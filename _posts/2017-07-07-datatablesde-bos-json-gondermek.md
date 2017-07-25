@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/datatables/datatablesde-bos-json-gondermek-9280.html
+  https://www.trkodlama.com/makaleler/datatablesde-bos-json-gondermek-9280.html
 published: true
 post_date: 2017-07-07 13:55:40
 ---
@@ -30,7 +30,7 @@ Fakat DataTables'a göndermemiz gereken JSON aşağıdaki formatta olmalıymış
     "recordsTotal": 0,
     "data": []
 }</pre>
-Bunun üzerinde <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">$result['data'][] = [];</code> değişkenim dikkatimi çekti. Onu <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">$result['data'] = [];</code> şeklinde değiştirdiğimizde problem çözülmüş oldu. Tam hali aşağıdadır:
+Bunun üzerinde <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >$result['data'][] = [];</pre> değişkenim dikkatimi çekti. Onu <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >$result['data'] = [];</pre> şeklinde değiştirdiğimizde problem çözülmüş oldu. Tam hali aşağıdadır:
 <pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="6" data-caption="">&lt;?php
 $result['draw'] = (int)$_POST['draw'];
 $result['recordsTotal'] = 0;
