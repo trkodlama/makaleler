@@ -12,7 +12,7 @@ post_date: 2017-02-04 00:52:18
 Başlığı nasıl atacağımı bilemedim fakat demek istediğim olay şuydu. Bir sayfa oluşturun ve bu sayfada mevcut temanızın üst kısmı(header), alt kısmı(footer), yan kenar alanı(sidebar) ve menüler olmasın. Sadece sayfa içeriğiniz gözüksün. Adım adım bunu uygulayalım:
 <h2>Adım 1 - WordPress Sayfa Teması Oluşturun</h2>
 Bilgisayarınızda "page-bossayfa.php" isimli bir dosya oluşturun ve aşağıdaki kodu bu dosyanın içine kopyalayıp-yapıştırın. Sonra kaydedin tabii ki :)
-<pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php
+<pre class="lang:php decode:true prettyprint lang-php" title="bos_sayfa.php">&lt;?php
 /**
  * Template Name: Boş Sayfa
  * Bu tema sayesinde yeni sayfa oluşturduğunuzda sadece içeriğinizi göreceksiniz.
@@ -53,6 +53,4 @@ Bu temanın çalışan bir örneğini şu adreste görebilirsiniz <a href="http
 <h2>Sonuç</h2>
 Bu işlemi sayfa olarak değilde yazı olarak da yapabilirsiniz. O zaman dosya adınız conten-bossayfa.php olmalı. Ayrıca farklı bir yazı tipi oluşturmalısınız. Bununla ilgili de belki ilerde bir yazı daha yazabilirim.
 
-[sdfile url="https://www.trkodlama.com/wp-content/uploads/2017/02/page-bossayfa.rar"]
-
-&nbsp;
+https://www.trkodlama.com/wp-content/uploads/2017/02/page-bossayfa.rar
