@@ -7,11 +7,11 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/guvenlik/content-security-policy-hakkinda-detayli-bilgi-6522.html
+  https://www.trkodlama.com/makaleler/content-security-policy-hakkinda-detayli-bilgi-6522.html
 published: true
 post_date: 2017-02-06 03:07:03
 ---
-<em>Yeni</em> <code class="prettyprint lang-text" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">Content-Security-Policy</code> HTTP yanıt başlığı(response header) modern tarayıcılarda yaşabileceğiniz XSS saldırılarını azaltmayı amaçlamaktadır.
+<em>Yeni</em> <pre class="class:prettyprint lang-text data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >Content-Security-Policy</pre> HTTP yanıt başlığı(response header) modern tarayıcılarda yaşabileceğiniz XSS saldırılarını azaltmayı amaçlamaktadır.
 
 Direktiflerden önce hangi tarayıcıların bu başlığı destekleyip desteklemediğini inceleylim.
 <h2>Tarayıcı Destekleri</h2>
@@ -28,7 +28,7 @@ Direktiflerden önce hangi tarayıcıların bu başlığı destekleyip desteklem
 </thead>
 <tbody>
 <tr>
-<td><code>Content-Security-Policy</code> <span class="label label-success">CSP Level 2</span></td>
+<td><pre class="decode:1 " >Content-Security-Policy</pre> <span class="label label-success">CSP Level 2</span></td>
 <td>40+ Ocak <small>2015</small></td>
 <td>31+ <small title="36+ is missing the plugin-types and child-src directives"><em>Kısmen</em>
 Temmuz 2014</small></td>
@@ -37,7 +37,7 @@ Temmuz 2014</small></td>
 <td>-</td>
 </tr>
 <tr>
-<td><code>Content-Security-Policy</code> <span class="label label-success">CSP 1.0</span></td>
+<td><pre class="decode:1 " >Content-Security-Policy</pre> <span class="label label-success">CSP 1.0</span></td>
 <td>25+</td>
 <td>23+</td>
 <td>7+</td>
@@ -45,7 +45,7 @@ Temmuz 2014</small></td>
 <td>Edge 12 build 10240+</td>
 </tr>
 <tr>
-<td><code>X-Content-Security-Policy</code> <span class="label label-warning">Kullanımdan kaldırıldı</span></td>
+<td><pre class="decode:1 " >X-Content-Security-Policy</pre> <span class="label label-warning">Kullanımdan kaldırıldı</span></td>
 <td></td>
 <td>4+</td>
 <td>-</td>
@@ -53,7 +53,7 @@ Temmuz 2014</small></td>
 <td>12+ <small title="only sandbox directive is partiall supported"><em>Kısıtlı</em></small></td>
 </tr>
 <tr>
-<td><code>X-Webkit-CSP</code> <span class="label label-warning">Kullanımdan Kaldırıldı</span></td>
+<td><pre class="decode:1 " >X-Webkit-CSP</pre> <span class="label label-warning">Kullanımdan Kaldırıldı</span></td>
 <td>14+</td>
 <td>-</td>
 <td>6+</td>
@@ -81,109 +81,109 @@ Bu tablo hazırlanırken şu adresteki belgeden faydalanılmıştır:
 </thead>
 <tbody>
 <tr>
-<td><code>default-src</code></td>
-<td><code>'self' cdn.ornek.com</code></td>
-<td> <code>default-src</code> direktifi JavaScript, Resimler, CSS, Font, AJAX sorguları, html5 medyaları vs. için varsayılan politikadır.Örnek değerleri sayfanın aşağısında göreceksiniz.
+<td><pre class="decode:1 " >default-src</pre></td>
+<td><pre class="decode:1 " >'self' cdn.ornek.com</pre></td>
+<td> <pre class="decode:1 " >default-src</pre> direktifi JavaScript, Resimler, CSS, Font, AJAX sorguları, html5 medyaları vs. için varsayılan politikadır.Örnek değerleri sayfanın aşağısında göreceksiniz.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>script-src</code></td>
-<td><code>'self' js.ornek.com</code></td>
+<td><pre class="decode:1 " >script-src</pre></td>
+<td><pre class="decode:1 " >'self' js.ornek.com</pre></td>
 <td>Geçerli JavaScript kaynakları tanımlar.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>style-src</code></td>
-<td><code>'self' css.ornek.com</code></td>
+<td><pre class="decode:1 " >style-src</pre></td>
+<td><pre class="decode:1 " >'self' css.ornek.com</pre></td>
 <td>Geçerli CSS kaynaklarını tanımlar.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>img-src</code></td>
-<td><code>'self' img.ornek.com</code></td>
+<td><pre class="decode:1 " >img-src</pre></td>
+<td><pre class="decode:1 " >'self' img.ornek.com</pre></td>
 <td>Geçerli resim kaynaklarını tanımlar.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>connect-src</code></td>
-<td><code>'self'</code></td>
-<td> <code>XMLHttpRequest</code> (AJAX), <code>WebSocket</code> veya <code>EventSource</code> için tanımlanır. Eğer izin verilmeyen kaynaktan bu sorgular yapılırsa tarayıcıdan  <code>400</code> HTTP kodu döner.
+<td><pre class="decode:1 " >connect-src</pre></td>
+<td><pre class="decode:1 " >'self'</pre></td>
+<td> <pre class="decode:1 " >XMLHttpRequest</pre> (AJAX), <pre class="decode:1 " >WebSocket</pre> veya <pre class="decode:1 " >EventSource</pre> için tanımlanır. Eğer izin verilmeyen kaynaktan bu sorgular yapılırsa tarayıcıdan  <pre class="decode:1 " >400</pre> HTTP kodu döner.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>font-src</code></td>
-<td><code>font.ornek.com</code></td>
+<td><pre class="decode:1 " >font-src</pre></td>
+<td><pre class="decode:1 " >font.ornek.com</pre></td>
 <td>Geçerli yazı tipi kaynaklarını tanımlar.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>object-src</code></td>
-<td><code>'self'</code></td>
-<td><code>&lt;object&gt;</code>, <code>&lt;embed&gt;</code> veya <code>&lt;applet&gt;</code> için geçerli kaynakları tanımlar.
+<td><pre class="decode:1 " >object-src</pre></td>
+<td><pre class="decode:1 " >'self'</pre></td>
+<td><pre class="decode:1 " >&lt;object&gt;</pre>, <pre class="decode:1 " >&lt;embed&gt;</pre> veya <pre class="decode:1 " >&lt;applet&gt;</pre> için geçerli kaynakları tanımlar.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>media-src</code></td>
-<td><code>media.ornek.com</code></td>
-<td>HTML5'in <code>&lt;audio&gt;</code>, <code>&lt;video&gt;</code> etiketleri gibi geçerli ses ve görüntü kaynaklarını tanımlar.
+<td><pre class="decode:1 " >media-src</pre></td>
+<td><pre class="decode:1 " >media.ornek.com</pre></td>
+<td>HTML5'in <pre class="decode:1 " >&lt;audio&gt;</pre>, <pre class="decode:1 " >&lt;video&gt;</pre> etiketleri gibi geçerli ses ve görüntü kaynaklarını tanımlar.
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>frame-src </code></td>
-<td><code>'self'</code></td>
-<td>Geçerli çerçeve kaynağını tanımlar. Artık  <code>child-src</code>  kullanılıyor, bu yöntem kullanımdan kaldırıldı.
+<td><pre class="decode:1 " >frame-src </pre></td>
+<td><pre class="decode:1 " >'self'</pre></td>
+<td>Geçerli çerçeve kaynağını tanımlar. Artık  <pre class="decode:1 " >child-src</pre>  kullanılıyor, bu yöntem kullanımdan kaldırıldı.
 
 <span class="label label-warning">Kullanımdan kaldırıldı.</span></td>
 </tr>
 <tr>
-<td><code>sandbox</code></td>
-<td><code>allow-forms allow-scripts</code></td>
+<td><pre class="decode:1 " >sandbox</pre></td>
+<td><pre class="decode:1 " >allow-forms allow-scripts</pre></td>
 <td>Sandbox modu sayesinde bir çok etkinliği kısıtlayabilirsiniz. Popupları engeller, formları durdurur, javascriptleri çalıştırmaz vs. vs.
 
-Sandbox direktifi için boş değer girerseniz aşağıdaki listenin tümünü girmiş sayılırsınız veyahut sadece seçtiklerinizin de çalışmasın sağlayabilirsiniz: <code>allow-forms</code> <code>allow-same-origin</code> <code>allow-scripts</code> <code>allow-popups</code>, <code>allow-modals</code>, <code>allow-orientation-lock</code>, <code>allow-pointer-lock</code>, <code>allow-presentation</code>, <code>allow-popups-to-escape-sandbox</code> ve <code>allow-top-navigation</code>
+Sandbox direktifi için boş değer girerseniz aşağıdaki listenin tümünü girmiş sayılırsınız veyahut sadece seçtiklerinizin de çalışmasın sağlayabilirsiniz: <pre class="decode:1 " >allow-forms</pre> <pre class="decode:1 " >allow-same-origin</pre> <pre class="decode:1 " >allow-scripts</pre> <pre class="decode:1 " >allow-popups</pre>, <pre class="decode:1 " >allow-modals</pre>, <pre class="decode:1 " >allow-orientation-lock</pre>, <pre class="decode:1 " >allow-pointer-lock</pre>, <pre class="decode:1 " >allow-presentation</pre>, <pre class="decode:1 " >allow-popups-to-escape-sandbox</pre> ve <pre class="decode:1 " >allow-top-navigation</pre>
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 50+"><i class="fa fa-firefox"></i> 50+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>report-uri</code></td>
-<td><code>/report-uri</code></td>
-<td>Tarayıcıya belirttiğiniz adrese direktiflerinizle ilgili hataların POST edilmesini sağlar.  <code>-Report-Only</code> ekleyerek herhangi bir şeyi bloklamadan sadece belirttiğiniz adrese rapor gönderir..
+<td><pre class="decode:1 " >report-uri</pre></td>
+<td><pre class="decode:1 " >/report-uri</pre></td>
+<td>Tarayıcıya belirttiğiniz adrese direktiflerinizle ilgili hataların POST edilmesini sağlar.  <pre class="decode:1 " >-Report-Only</pre> ekleyerek herhangi bir şeyi bloklamadan sadece belirttiğiniz adrese rapor gönderir..
 
 <span class="label label-success">CSP Level 1</span> <span class="label label-default" title="Chrome 25+ - February 2013"><i class="fa fa-chrome"></i> 25+</span> <span class="label label-default" title="Firefox 23+ - August 2013"><i class="fa fa-firefox"></i> 23+</span> <span class="label label-default" title="Safari 7+ - October 2013"><i class="fa fa-safari"></i> 7+</span> <span class="label label-default" title="IE Edge 12.10240+ - July 2015"><i class="fa fa-edge"></i> 12+</span></td>
 </tr>
 <tr>
-<td><code>child-src</code></td>
-<td><code>'self'</code></td>
-<td><code>&lt;frame&gt;</code> ve<code>&lt;iframe&gt;</code> için geçerli kaynakları tanımlar.
+<td><pre class="decode:1 " >child-src</pre></td>
+<td><pre class="decode:1 " >'self'</pre></td>
+<td><pre class="decode:1 " >&lt;frame&gt;</pre> ve<pre class="decode:1 " >&lt;iframe&gt;</pre> için geçerli kaynakları tanımlar.
 
 <span class="label label-success">CSP Level 2</span> <span class="label label-default" title="Chrome 40+ - January 2015"><i class="fa fa-chrome"></i> 40+</span> <span class="label label-default" title="Firefox 45+ - March 2016"><i class="fa fa-firefox"></i> 45+</span></td>
 </tr>
 <tr>
-<td><code>form-action</code></td>
-<td><code>'self'</code></td>
-<td>HTML <code>&lt;form&gt;</code> işlemi için geçerli kaynakları tanımlar.
+<td><pre class="decode:1 " >form-action</pre></td>
+<td><pre class="decode:1 " >'self'</pre></td>
+<td>HTML <pre class="decode:1 " >&lt;form&gt;</pre> işlemi için geçerli kaynakları tanımlar.
 
 <span class="label label-success">CSP Level 2</span> <span class="label label-default" title="Chrome 40+ - January 2015"><i class="fa fa-chrome"></i> 40+</span> <span class="label label-default" title="Firefox 36+ - February 2015 "><i class="fa fa-firefox"></i> 36+</span></td>
 </tr>
 <tr>
-<td><code>frame-ancestors</code></td>
-<td><code>'none'</code></td>
-<td><code>&lt;frame&gt;</code> <code>&lt;iframe&gt;</code> <code>&lt;object&gt;</code> <code>&lt;embed&gt;</code> <code>&lt;applet&gt;</code> dökümanınıza ekleyebileceğiniz bu etiketlerin kaynaklarını tanımlar. Bu direktifi  <code>'none'</code> olarak ayarlamak şuna da eşit sayılır <code>X-Frame-Options: DENY</code>
+<td><pre class="decode:1 " >frame-ancestors</pre></td>
+<td><pre class="decode:1 " >'none'</pre></td>
+<td><pre class="decode:1 " >&lt;frame&gt;</pre> <pre class="decode:1 " >&lt;iframe&gt;</pre> <pre class="decode:1 " >&lt;object&gt;</pre> <pre class="decode:1 " >&lt;embed&gt;</pre> <pre class="decode:1 " >&lt;applet&gt;</pre> dökümanınıza ekleyebileceğiniz bu etiketlerin kaynaklarını tanımlar. Bu direktifi  <pre class="decode:1 " >'none'</pre> olarak ayarlamak şuna da eşit sayılır <pre class="decode:1 " >X-Frame-Options: DENY</pre>
 
 <span class="label label-success">CSP Level 2</span> <span class="label label-default" title="Chrome 39+ - November 2014"><i class="fa fa-chrome"></i> 39+</span> <span class="label label-default" title="Firefox 33+ - October 2014"><i class="fa fa-firefox"></i> 33+</span></td>
 </tr>
 <tr>
-<td><code>plugin-types</code></td>
-<td><code>'application/pdf'</code></td>
-<td><code>&lt;object&gt;</code> ve <code>&lt;embed&gt;</code> ile dökümanınıza ekleyebileceğiniz MIME tiplerini limitler. Örneğin  <code>&lt;applet&gt;</code> eklemek istiyorsanız şunu kullanmalısınız <code>application/x-java-applet</code>.
+<td><pre class="decode:1 " >plugin-types</pre></td>
+<td><pre class="decode:1 " >'application/pdf'</pre></td>
+<td><pre class="decode:1 " >&lt;object&gt;</pre> ve <pre class="decode:1 " >&lt;embed&gt;</pre> ile dökümanınıza ekleyebileceğiniz MIME tiplerini limitler. Örneğin  <pre class="decode:1 " >&lt;applet&gt;</pre> eklemek istiyorsanız şunu kullanmalısınız <pre class="decode:1 " >application/x-java-applet</pre>.
 
 <span class="label label-success">CSP Level 2</span> <span class="label label-default" title="Chrome 40+ - January 2015"><i class="fa fa-chrome"></i> 40+</span></td>
 </tr>
@@ -202,54 +202,54 @@ Yukarıda paylaşmış olduğum direktiflerden sonu <strong>-src</strong> ile b
 </thead>
 <tbody>
 <tr>
-<td><code>*</code></td>
-<td><code>img-src *</code></td>
+<td><pre class="decode:1 " >*</pre></td>
+<td><pre class="decode:1 " >img-src *</pre></td>
 <td>Yıldız işareti data: blob: filesystem: şeması dışındaki bütün URL'leri kabul eder.</td>
 </tr>
 <tr>
-<td><code>'none'</code></td>
-<td><code>object-src 'none'</code></td>
+<td><pre class="decode:1 " >'none'</pre></td>
+<td><pre class="decode:1 " >object-src 'none'</pre></td>
 <td>Hiç bir kaynaktan içerik kabul etme.</td>
 </tr>
 <tr>
-<td><code>'self'</code></td>
-<td><code>script-src 'self'</code></td>
+<td><pre class="decode:1 " >'self'</pre></td>
+<td><pre class="decode:1 " >script-src 'self'</pre></td>
 <td>Aynı alan adın, ip vs.'den içerik yüklemesine izin verir.</td>
 </tr>
 <tr>
-<td><code>data:</code></td>
-<td><code>img-src 'self' data:</code></td>
+<td><pre class="decode:1 " >data:</pre></td>
+<td><pre class="decode:1 " >img-src 'self' data:</pre></td>
 <td>data: şemasından resim yüklenmesine izin verir(base64 şifrelenmiş resimler)</td>
 </tr>
 <tr>
-<td><code>domain.ornek.com</code></td>
-<td><code>img-src domain.ornek.com</code></td>
+<td><pre class="decode:1 " >domain.ornek.com</pre></td>
+<td><pre class="decode:1 " >img-src domain.ornek.com</pre></td>
 <td>İçerikler sadece belirtilen domain'den indirilir</td>
 </tr>
 <tr>
-<td><code>*.ornek.com</code></td>
-<td><code>img-src *.ornek.com</code></td>
-<td>Bütün alt alan isimlerine izin verir <code>example.com</code></td>
+<td><pre class="decode:1 " >*.ornek.com</pre></td>
+<td><pre class="decode:1 " >img-src *.ornek.com</pre></td>
+<td>Bütün alt alan isimlerine izin verir <pre class="decode:1 " >example.com</pre></td>
 </tr>
 <tr>
-<td><code>https://cdn.com</code></td>
-<td><code>img-src https://cdn.com</code></td>
+<td><pre class="decode:1 " >https://cdn.com</pre></td>
+<td><pre class="decode:1 " >img-src https://cdn.com</pre></td>
 <td>Belirtilen domain'e HTTPS protokolü kullanmak şartıyla izin verir.</td>
 </tr>
 <tr>
-<td><code>https:</code></td>
-<td><code>img-src https:</code></td>
+<td><pre class="decode:1 " >https:</pre></td>
+<td><pre class="decode:1 " >img-src https:</pre></td>
 <td>HTTPS olsun hangi domain olursa olsun :)</td>
 </tr>
 <tr>
-<td><code>'unsafe-inline'</code></td>
-<td><code>script-src 'unsafe-inline'</code></td>
+<td><pre class="decode:1 " >'unsafe-inline'</pre></td>
+<td><pre class="decode:1 " >script-src 'unsafe-inline'</pre></td>
 <td>Style, onlick vs. gibi inline kodlama dediğimiz olaya izin verir.</td>
 </tr>
 <tr>
-<td><code>'unsafe-eval'</code></td>
-<td><code>script-src 'unsafe-eval'</code></td>
-<td>Dinamik JavaScript kod çalıştırıcısına izin verir <code>eval()</code></td>
+<td><pre class="decode:1 " >'unsafe-eval'</pre></td>
+<td><pre class="decode:1 " >script-src 'unsafe-eval'</pre></td>
+<td>Dinamik JavaScript kod çalıştırıcısına izin verir <pre class="decode:1 " >eval()</pre></td>
 </tr>
 </tbody>
 </table>
