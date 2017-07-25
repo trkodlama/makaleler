@@ -11,7 +11,7 @@ permalink: >
 published: true
 post_date: 2017-07-21 03:42:09
 ---
-aBaşlık doğru mu oldu bilmiyorum fakat işin özü şu: Şahsen ben veritabanı tablolarımı Entity kullanarak hazırlamaya üşendim. Onun yerine phpMyAdmin kullanarak veritabanımı oluşturdum. Yani elimde yeni bir veritabanı var. Fakat bu sizin halihazırda kullandığınız veritabanı da olabilir. Problem değil. İkisi de aynı mantık.
+Başlık doğru mu oldu bilmiyorum fakat işin özü şu: Şahsen ben veritabanı tablolarımı Entity kullanarak hazırlamaya üşendim. Onun yerine phpMyAdmin kullanarak veritabanımı oluşturdum. Yani elimde yeni bir veritabanı var. Fakat bu sizin halihazırda kullandığınız veritabanı da olabilir. Problem değil. İkisi de aynı mantık.
 
 Şimdi elimizdeki veritabanını inceleyerek Symfony bizim için Entity'leri otomatik olarak oluşturacak. Bunun için aşağıdaki adımları takip edin:
 <h4>Adım 1 - parameters.yml Dosyanızı Güncelleyin</h4>
@@ -30,51 +30,51 @@ Eveett, varlıklarımız oluşturuldu.
 İşlem bu kadar basit arkadaşlar. Temsili bir varlık dosyası paylaşmak istiyorum:
 <pre class="lang:php decode:true prettyprint lang-php">&lt;?php
 // src/AppBundle/Entity/BlogComment.php
-namespace AppBundle\Entity;
+namespace AppBundleEntity;
 
-use Doctrine\ORM\Mapping as ORM;
+use DoctrineORMMapping as ORM;
 
 /**
- * @ORM\Table(name="blog_comment")
- * @ORM\Entity
+ * @ORMTable(name="blog_comment")
+ * @ORMEntity
  */
 class BlogComment
 {
     /**
      * @var integer $id
      *
-     * @ORM\Column(name="id", type="bigint")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="IDENTITY")
+     * @ORMColumn(name="id", type="bigint")
+     * @ORMId
+     * @ORMGeneratedValue(strategy="IDENTITY")
      */
     private $id;
 
     /**
      * @var string $author
      *
-     * @ORM\Column(name="author", type="string", length=100, nullable=false)
+     * @ORMColumn(name="author", type="string", length=100, nullable=false)
      */
     private $author;
 
     /**
      * @var text $content
      *
-     * @ORM\Column(name="content", type="text", nullable=false)
+     * @ORMColumn(name="content", type="text", nullable=false)
      */
     private $content;
 
     /**
      * @var datetime $createdAt
      *
-     * @ORM\Column(name="created_at", type="datetime", nullable=false)
+     * @ORMColumn(name="created_at", type="datetime", nullable=false)
      */
     private $createdAt;
 
     /**
      * @var BlogPost
      *
-     * @ORM\ManyToOne(targetEntity="BlogPost")
-     * @ORM\JoinColumn(name="post_id", referencedColumnName="id")
+     * @ORMManyToOne(targetEntity="BlogPost")
+     * @ORMJoinColumn(name="post_id", referencedColumnName="id")
      */
     private $post;
 }</pre>
