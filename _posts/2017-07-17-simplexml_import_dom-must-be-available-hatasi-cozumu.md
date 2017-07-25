@@ -5,11 +5,11 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/symfony-3/simplexml_import_dom-must-be-available-hatasi-cozumu-9311.html
+  https://www.trkodlama.com/makaleler/simplexml_import_dom-must-be-available-hatasi-cozumu-9311.html
 published: true
 post_date: 2017-07-17 21:19:09
 ---
-<strong>Symfony</strong> ile yeni bir proje oluştururken bu hata ile karşılaştım. PHP7 kurdum, sonra symfony kurdum. Daha sonra <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">symfony new projeminadi</code> komutunu çalıştırdığımda bu hata ile karşılaştım:
+<strong>Symfony</strong> ile yeni bir proje oluştururken bu hata ile karşılaştım. PHP7 kurdum, sonra symfony kurdum. Daha sonra <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >symfony new projeminadi</pre> komutunu çalıştırdığımda bu hata ile karşılaştım:
 
 Preparing project...
 <blockquote>✕ Symfony 3.3.4 was successfully installed but your system doesn't meet its
