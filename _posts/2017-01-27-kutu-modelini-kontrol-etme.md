@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/css3/kutu-modelini-kontrol-etme-6446.html
+  https://www.trkodlama.com/web-tasarim-2/kutu-modelini-kontrol-etme-6446.html
 published: true
 post_date: 2017-01-27 21:22:17
 ---
@@ -46,7 +46,7 @@ Kenar boşluğu alanı kenarın(border) dışındaki alan. Kutunun bir parças
 
 Kutuların yüksekliğini ve genişliğini <em>height</em> ve <em>width</em> css özellikleriyle tanımlayabiliriz. Bununla birlikte her kutunun sahip olacağı dört alan olduğunu biliyoruz. İçerik alanı, dolgu alanı, kenar ve kenar boşluğu alanlarını kullanıyorsak eğer yükseklik ve genişlikten neyi kastettiğimizi belirtmek zorundayız. Burada da yardımımıza <strong><em>box-sizing</em></strong> özelliği yetişiyor.
 <h2>box-sizing Özelliği</h2>
-<code>box-sizing</code> özelliği ile kutumuzun yüksekliğini ve genişliğini hangi kenara göre girdiğimizi belirtebiliyoruz. Yani kenar boşluğu dışında diğer üç özelliği dahil ve hariç tutacak şekilde genişlik ve yükseklik girebiliyoruz. <em><strong>box-sizing </strong></em>dört değer kabul eder. Bunlar <strong>content-box, padding-box, border-box</strong> ve <strong>inherit</strong> dir.
+<pre class="decode:1 " >box-sizing</pre> özelliği ile kutumuzun yüksekliğini ve genişliğini hangi kenara göre girdiğimizi belirtebiliyoruz. Yani kenar boşluğu dışında diğer üç özelliği dahil ve hariç tutacak şekilde genişlik ve yükseklik girebiliyoruz. <em><strong>box-sizing </strong></em>dört değer kabul eder. Bunlar <strong>content-box, padding-box, border-box</strong> ve <strong>inherit</strong> dir.
 <h3>conten-box</h3>
 <blockquote><em>genişlik = içerik alanı</em></blockquote>
 Bu değer box-sizing özelliği için varsayılan değerdir. Kutunun genişliği, ki bizim örneğimizde kutunun genişliği 300px, içerik alanı genişliği eşit olur. Dolgu alanı ve kenar kalınlığı bu kutunun genişliğini 300px den daha büyük bir değer olmasına sebep olur. Sayfanın üstünde verdiğimiz örneğe göre bu değere sahip kutunun sayfada kapladığı genişliği düşünelim. İçerik alanı 300px, dolgu alanı 50+50=100px, kenar kalınlığı 50+50=100px olmak üzere kutunun boyutu 500px'dir. Kenar boşluğunu da 50+50=100px olarak hesaba katarsak kutunun sayfada kapladığı genişlik 600px olacaktır.
