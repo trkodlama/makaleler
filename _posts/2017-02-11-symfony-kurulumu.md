@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/symfony-3/symfony-kurulumu-9162.html
+  https://www.trkodlama.com/makaleler/symfony-kurulumu-9162.html
 published: true
 post_date: 2017-02-11 22:27:18
 ---
@@ -17,7 +17,7 @@ Pekala, Symfony nedir? İlk olarak symfony bileşen yani php kütüphanelerinin 
 <h2>Symfony Kurulumu</h2>
 İlk Symfony projemize oluşturmaya doğru yavaş yavaş ilerleyelim. Öncelikle <a href="http://symfony.com/download">Symfony.com</a> adresine gidin ve "Download" a tıklayın. İlk işimiz Symfony Installer'ı indirmek. Kullandığınız işletim sistemine Symfony Installer'ı nasıl indireceğiniz gösterilmiş. Ben Win kullanıyorum ve onu göstereceğim:
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">php -r "file_put_contents('symfony', file_get_contents('https://symfony.com/installer'));"</pre>
-<blockquote><strong>Dikkat!</strong> Eğer <strong>php</strong> komutu bulunamadıysa <strong>php.exe</strong> dosyasının tam adresini yazmalısınız. Örneğin: <code class="prettyprint lang-plain_text" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">C:\\Users\\trkodlama\\php7\\php.exe</code>  kullanın php yerine.</blockquote>
+<blockquote><strong>Dikkat!</strong> Eğer <strong>php</strong> komutu bulunamadıysa <strong>php.exe</strong> dosyasının tam adresini yazmalısınız. Örneğin: <pre class="class:prettyprint lang-plain_text data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >C:\\Users\\trkodlama\\php7\\php.exe</pre>  kullanın php yerine.</blockquote>
 Şimdi ilk projemizi oluşturalım:
 <pre class="prettyprint lang-javascript" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">php symfony new trkodlamaSymfonyDersleri</pre>
 Bu komutla beraber Symfony framework ü ve bileşenler indirilmeye başlanıyor.
