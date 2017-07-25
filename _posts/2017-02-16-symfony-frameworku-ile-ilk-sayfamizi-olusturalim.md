@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/symfony-3/symfony-frameworku-ile-ilk-sayfamizi-olusturalim-9180.html
+  https://www.trkodlama.com/makaleler/symfony-frameworku-ile-ilk-sayfamizi-olusturalim-9180.html
 published: true
 post_date: 2017-02-16 20:09:30
 ---
@@ -52,7 +52,7 @@ class TurController
 <blockquote>Eğer <strong>Namespace</strong> kavramıyla ilgili bilginiz yoksa biraz araştırma yapmanızı öneririm. Yakında namespace üzerine belki bir makale yazabilirim. Fakat şu anda google'da arayıp birşeyler okumanızı öneriyorum.</blockquote>
 Burada en önemli olay <strong>namespace</strong> ile <strong>proje dizininiz</strong> birbiriyle eşleşmelidir. Aksi halde Symfony framework çalışmayacaktır.
 <h2>Controller ve Route</h2>
-Şimdi <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">public function showAction()</code> ile sayfamızı oluşturalım.
+Şimdi <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >public function showAction()</pre> ile sayfamızı oluşturalım.
 <pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php
 /**
  * Created by PhpStorm.
@@ -70,11 +70,11 @@ class TurController
         
     }
 }</pre>
-İşte bu kadar. Bu bizim <em><strong>controller</strong></em>'ımız. Sayfamızı oluşturacak temel iskelet bu aslında. Adının da bir önemi yok. Şimdi route oluşturacağız. Route oluşturmak için yorum satırlarını kullanıyoruz. <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">/**</code>  ile başlayıp <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@Route</code>  ekliyoruz. Serimizin bir önceki <a href="https://www.trkodlama.com/makaleler/php-symfony-frameworku-ile-calisirken-phpstorm-kullaniyoruz-9178.html">makalesinde</a> kurmuş olduğumuz PHP Annotations eklentisi sayesinde otomatik olarak tamamlıyor zaten PHP Storm. Fakat tamamlarken size birden fazla alternatif sunabilir. <strong>FrameworkExtraBundle</strong>'ı seçmeye dikkat edin. Bu oldukça önemlidir. Son olarak da parantez içine "/tur" yazalım ve bitirelim:
+İşte bu kadar. Bu bizim <em><strong>controller</strong></em>'ımız. Sayfamızı oluşturacak temel iskelet bu aslında. Adının da bir önemi yok. Şimdi route oluşturacağız. Route oluşturmak için yorum satırlarını kullanıyoruz. <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >/**</pre>  ile başlayıp <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >@Route</pre>  ekliyoruz. Serimizin bir önceki <a href="https://www.trkodlama.com/makaleler/php-symfony-frameworku-ile-calisirken-phpstorm-kullaniyoruz-9178.html">makalesinde</a> kurmuş olduğumuz PHP Annotations eklentisi sayesinde otomatik olarak tamamlıyor zaten PHP Storm. Fakat tamamlarken size birden fazla alternatif sunabilir. <strong>FrameworkExtraBundle</strong>'ı seçmeye dikkat edin. Bu oldukça önemlidir. Son olarak da parantez içine "/tur" yazalım ve bitirelim:
 
 <img class="aligncenter size-full wp-image-9184" src="https://www.trkodlama.com/wp-content/uploads/2017/02/symfony-4.png" alt="" width="520" height="380" />
 
-Oto tamamlama burada çok önemli. Oto tamamlamayı kullanmak zorundasınız. Farkettiyseniz hemen <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">use</code> komutunu ekledi sayfanıza. Bu sayede sınıfımızın son hali şu şekilde oldu:
+Oto tamamlama burada çok önemli. Oto tamamlamayı kullanmak zorundasınız. Farkettiyseniz hemen <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >use</pre> komutunu ekledi sayfanıza. Bu sayede sınıfımızın son hali şu şekilde oldu:
 <pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php
 /**
  * Created by PhpStorm.
@@ -96,13 +96,13 @@ class TurController
 
     }
 }</pre>
-Çok güzel! Artık bir sayfamız çalışıyor. Projenizin ana dizini 404 hatası vermeye devam ederken <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">/tur</code> adresine giderseniz artık boş bir sayfa ile karşılaşacaksınız. Bu da böyle bir sayfanızın olduğunu gösteriyor :)
+Çok güzel! Artık bir sayfamız çalışıyor. Projenizin ana dizini 404 hatası vermeye devam ederken <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >/tur</pre> adresine giderseniz artık boş bir sayfa ile karşılaşacaksınız. Bu da böyle bir sayfanızın olduğunu gösteriyor :)
 <h2>Ekrana Çıktı Oluşturalım</h2>
 Daha önce dediğim gibi controller'ın amacı sayfayı oluşturmak. Controller'ın bir kuralı var oda Symfony Response nesnesini kullanarak return yapmalısınız.
 
 Return olarak çıktınızı html, json vs olarak rahatlıkla oluşturabilirsiniz.
 
-Şu aşamada işleri biraz basit tutalım: <code class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">return new Response</code>. <em>Response</em> sınıfı <strong>HttpFoundation</strong> komponentinden geliyor. Tabii ki yine oto tamamlamanının bizim yerimize tamamlamasına izin veriyoruz; bu sayede gerekli gördüğü namespace'i projemize hemen ekliyor. Aksi halde problemlerle karşılaşabiliriz:
+Şu aşamada işleri biraz basit tutalım: <pre class="class:prettyprint lang-php data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >return new Response</pre>. <em>Response</em> sınıfı <strong>HttpFoundation</strong> komponentinden geliyor. Tabii ki yine oto tamamlamanının bizim yerimize tamamlamasına izin veriyoruz; bu sayede gerekli gördüğü namespace'i projemize hemen ekliyor. Aksi halde problemlerle karşılaşabiliriz:
 
 <img class="aligncenter size-full wp-image-9185" src="https://www.trkodlama.com/wp-content/uploads/2017/02/symfony-5.png" alt="" width="619" height="541" />
 
