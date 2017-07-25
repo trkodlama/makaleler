@@ -72,16 +72,16 @@ Sıkıntı yok.<strong> Sağ sol ve yukarı aşağı işlemleri çalışıyor.<
 Eğer benim objemin x'i -10'dan küçük bir değer alıyorsa onu x 10 olacak şekilde yönlendir.
 Eğer benim objemin x'i 10'dan büyük bir değer alıyorsa onu x -10 olacak şekilde yönlendir.
 Açıkca görüldüğü gibi bize iki tane if gerekli bu durumu sağlamamız için. Hemen onları yazalım.
-<pre class="prettyprint lang-csharp" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">if(hareket.position.x &gt; 10){
+<pre class="lang:c# decode:true prettyprint lang-csharp">if(hareket.position.x &gt; 10){
     hareket.position =new Vector3(-10,hareket.position.y,hareket.position.z);
 }
 else if (hareket.position.x &lt; -10){
     hareket.position=new Vector3(10,hareket.position.y,hareket.position.z);
 }</pre>
 Aynı durumu y değerimiz için de yapalım böylece sürekli camera açısında olsun objemiz.
-<p style="text-align: center;">[sam_pro id="0_3" codes="true"]</p>
+
 <strong>y değerimiz de -7.5,7.5</strong> arasında değişiyor. Hemen onu da ayarlıyalım
-<pre class="prettyprint lang-csharp" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">if(hareket.position.y &gt; 7.5f){
+<pre class="lang:c# decode:true prettyprint lang-csharp ">if(hareket.position.y &gt; 7.5f){
     hareket.position=new Vector3(hareket.position.x,-7.5f,hareket.position.z);
 }
 else if(hareket.position.y &lt; -7.5f){
@@ -93,4 +93,4 @@ Bu makale buraya kadar umarım yararlı olmuştur.
 
 <strong>Oyunu aşağıdan indirebilir ve deneyebilirsiniz. Anlattığıma ek olarak bir çıkış butonu ve ışık ekledim. </strong>
 
-[sdfile url="http://www.trkodlama.com/wp-content/uploads/demolar/Oyun.rar"]
+<a href="http://www.trkodlama.com/wp-content/uploads/demolar/Oyun.rar">Oyun.Rar İndir</a>
