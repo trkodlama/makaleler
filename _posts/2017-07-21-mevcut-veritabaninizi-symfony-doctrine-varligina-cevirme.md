@@ -11,7 +11,7 @@ permalink: >
 published: true
 post_date: 2017-07-21 03:42:09
 ---
-Başlık doğru mu oldu bilmiyorum fakat işin özü şu: Şahsen ben veritabanı tablolarımı Entity kullanarak hazırlamaya üşendim. Onun yerine phpMyAdmin kullanarak veritabanımı oluşturdum. Yani elimde yeni bir veritabanı var. Fakat bu sizin halihazırda kullandığınız veritabanı da olabilir. Problem değil. İkisi de aynı mantık.
+aBaşlık doğru mu oldu bilmiyorum fakat işin özü şu: Şahsen ben veritabanı tablolarımı Entity kullanarak hazırlamaya üşendim. Onun yerine phpMyAdmin kullanarak veritabanımı oluşturdum. Yani elimde yeni bir veritabanı var. Fakat bu sizin halihazırda kullandığınız veritabanı da olabilir. Problem değil. İkisi de aynı mantık.
 
 Şimdi elimizdeki veritabanını inceleyerek Symfony bizim için Entity'leri otomatik olarak oluşturacak. Bunun için aşağıdaki adımları takip edin:
 <h4>Adım 1 - parameters.yml Dosyanızı Güncelleyin</h4>
