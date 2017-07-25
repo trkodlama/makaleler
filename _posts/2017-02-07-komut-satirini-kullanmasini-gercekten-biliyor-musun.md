@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/linux/komut-satirini-kullanmasini-gercekten-biliyor-musun-6557.html
+  https://www.trkodlama.com/makaleler/komut-satirini-kullanmasini-gercekten-biliyor-musun-6557.html
 published: true
 post_date: 2017-02-07 18:54:30
 ---
@@ -37,30 +37,30 @@ Cevabımız şu şekilde olacaktır:
 <h2>list_files/ - Her satırda tek dosya olacak şekilde dosyaları listele</h2>
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption=""># List names of all the files in the current
 # directory, one file per line.</pre>
-İçinde bulunduğunuz dizindeki dosyaları alt alta listelemeniz isteniyor. Burada kullanacağımız komut <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">ls</code>  komutudur. Fakat tek başına <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">ls</code>  komutu işimize yaramayacaktır. Çünkü her satıra bir dosya çıktısı vermez. Her satırda bir dosya adı kullanmak istiyorsanız <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">ls -1</code>  kullanmalısınız. Detaylı bilgi için: <a href="https://docs.oracle.com/cd/E53394_01/html/E54763/ls-1b.html">docs.oracle.com/cd/E53394_01/html/E54763/ls-1b.html</a>
+İçinde bulunduğunuz dizindeki dosyaları alt alta listelemeniz isteniyor. Burada kullanacağımız komut <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >ls</pre>  komutudur. Fakat tek başına <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >ls</pre>  komutu işimize yaramayacaktır. Çünkü her satıra bir dosya çıktısı vermez. Her satırda bir dosya adı kullanmak istiyorsanız <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >ls -1</pre>  kullanmalısınız. Detaylı bilgi için: <a href="https://docs.oracle.com/cd/E53394_01/html/E54763/ls-1b.html">docs.oracle.com/cd/E53394_01/html/E54763/ls-1b.html</a>
 
 Cevabını şu olmalı:
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">ls -1</pre>
 <h2>print_file_contents/ - "access.log" dosyasının içeriğini yazdırın</h2>
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption=""># There is a file named "access.log" in the
 # current directory. Print the contents.</pre>
-İçinde bulunduğunuz dizinde bulunan <strong>acccess.log</strong> dosyasının içeriğini ekrana yazdırmak için <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">tail</code>  komutunu kullanıyoruz:
+İçinde bulunduğunuz dizinde bulunan <strong>acccess.log</strong> dosyasının içeriğini ekrana yazdırmak için <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >tail</pre>  komutunu kullanıyoruz:
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">tail access.log</pre>
 <h2>last_lines/ - "access.log" dosyasının son 5 satırını yazdırın</h2>
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption=""># Print the last 5 lines of "access.log".</pre>
-Bu dosyanın son 5 satırını yazdırmak için yine <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">tail</code> komutunu kullanıyoruz fakat bu sefer <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">-5</code> diye belirterek:
+Bu dosyanın son 5 satırını yazdırmak için yine <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >tail</pre> komutunu kullanıyoruz fakat bu sefer <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >-5</pre> diye belirterek:
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">tail -5 access.log</pre>
 <h2>find_string_in_a_file/ - İçinde "GET" yazan satırları yazdırın</h2>
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption=""># There is a file named "access.log" in the
 # current working directory. Print all lines
 # in this file that contains the string "GET".</pre>
-Bizden istediği yine "access.log" dosyamızın içeriğini yazdırmamız fakat bu sefer sadece içinde "GET" yazan satırları yazdıracağız. GET yazısını yakalamak için  <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">grep</code> komutunu kullanacağız:
+Bizden istediği yine "access.log" dosyamızın içeriğini yazdırmamız fakat bu sefer sadece içinde "GET" yazan satırları yazdıracağız. GET yazısını yakalamak için  <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >grep</pre> komutunu kullanacağız:
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">grep GET access.log</pre>
 <h2>find_tabs_in_a_file/ - Tab içeren kaç tane satır var</h2>
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption=""># How many lines contain tab characters in
 # the file named "file-with-tabs.txt" in the
 # current directory.</pre>
-Bu görevi yerine getirmek için iki komut kullanıyoruz. İlkinde tab içeren satırları bulup ikincisinde bu satır sayısını sayıyoruz. Yine <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">grep</code>  kullanıyoruz ve satırları saymak için <code class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">wc</code>  kullanıyoruz.
+Bu görevi yerine getirmek için iki komut kullanıyoruz. İlkinde tab içeren satırları bulup ikincisinde bu satır sayısını sayıyoruz. Yine <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >grep</pre>  kullanıyoruz ve satırları saymak için <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >wc</pre>  kullanıyoruz.
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">grep "$(printf '\t')" file-with-tabs.txt | wc -l</pre>
 <h2>search_for_files_containing_string/ - İçinde "500" yazan bütün dosyaları listele</h2>
 <pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption=""># Print all files in the current directory,
