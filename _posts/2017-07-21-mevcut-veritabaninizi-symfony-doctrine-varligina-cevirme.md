@@ -28,7 +28,7 @@ Eveett, varlıklarımız oluşturuldu.
 <em>src/AppBundle/Resources/config/</em> klasörü içerisinde az önce oluşturduğumuz <em><strong>.yml</strong></em> uzantılı dosyaları kaldıralım. Bu dosyalar çakışmaya sebep oluyor.
 
 İşlem bu kadar basit arkadaşlar. Temsili bir varlık dosyası paylaşmak istiyorum:
-<pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php
+<pre class="lang:php decode:true prettyprint lang-php">&lt;?php
 // src/AppBundle/Entity/BlogComment.php
 namespace AppBundle\Entity;
 
