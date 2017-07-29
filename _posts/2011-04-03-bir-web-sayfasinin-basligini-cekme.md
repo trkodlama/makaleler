@@ -13,10 +13,11 @@ post_date: 2011-04-03 17:26:24
 ---
 Merhaba arkadaşlar,
 
-Bu makale ile bir web adresinin <code class="prettyprint lang-html" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;title&gt;...&lt;/title&gt;</code> etiketleri arasındaki kısmı nasıl çekeceğimizi göreceğiz. Projelerinizde belki kullanma isteği duyarsınız. Üyelerinize girilen sayfanın başlığını göstermek istersiniz belki..
+Bu makale ile bir web adresinin <code>&lt;title&gt;...&lt;/title&gt;</code> etiketleri arasındaki kısmı nasıl çekeceğimizi göreceğiz. Projelerinizde belki kullanma isteği duyarsınız. Üyelerinize girilen sayfanın başlığını göstermek istersiniz belki..
 
 Hemen başlayalım.. Öncelikle bir fonksiyon oluşturalım ve bu fonksiyon bizim başlık çeken fonksiyonumuz olsun..
-<pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php  
+
+<pre class="line-numbers"><code class="language-php">&lt;?php  
   
 /** 
  * @author oralunal 
@@ -25,23 +26,18 @@ Hemen başlayalım.. Öncelikle bir fonksiyon oluşturalım ve bu fonksiyon bizi
   
 /** 
  * baslikCek() 
- *  
- * @param mixed $url 
- * @return 
  */  
-function baslikCek($url){  
-    $icerik = file_get_contents($url); // Sayfa içeriğini alalım  
-    $kalip = "|&lt;[s]*title[s]*--&gt;([^&lt;]+)&lt;[s]*/[s]*title[s]*&gt;|Ui";
-    if(preg_match($kalip, $icerik, $match)){ //Arama yapalım varsa değeri yoksa false return edelim  
-        return $match[1];   
-    }else{   
-        return false;   
-    }  
+function baslikCek($a,$b,$c){ 
+    $y = explode($b,$a); 
+    $x = explode($c,$y[1]); 
+    
+    return $x[0]; 
 }  
-  
-?&gt;</pre>
+?&gt;</code></pre>
+
 Yukarıdaki fonksiyonumuz $url ile yollanan web sayfasını açıyor. İçerisinde title taglarını arıyor. Eğer title tagları mevcutsa arasındaki değeri döndürüyor. Eğer bağlandığı web sayfasında title tagı mevcut değilse false dönüyor. Kullanımı da aşağıdaki gibidir:
-<pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php  
+
+<pre class="line-numbers"><code class="language-php">&lt;?php  
   
 /** 
  * @author oralunal 
@@ -49,11 +45,12 @@ Yukarıdaki fonksiyonumuz $url ile yollanan web sayfasını açıyor. İçerisin
  */  
   
 $url    = 'http://www.trkodlama.com';  
-$baslik = baslikCek($url);  
-  
+$baslik = baslikCek(file_get_contents($url), "&lt;title&gt;", "&lt;/title&gt;");
+
 echo "&lt;a title=\"$baslik\" href=\"$url\" target=\"_blank\"&gt;$baslik&lt;/a&gt;";
   
-?&gt;</pre>
+?&gt;</code></pre>
+
 Yukarıdaki scriptin ekran çıktısı aşağıdaki gibi olacaktır:
 TR Kodlama - Güncel Programlama Makaleleri
 
