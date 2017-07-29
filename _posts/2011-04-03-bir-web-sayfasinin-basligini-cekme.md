@@ -1,8 +1,8 @@
 ---
 ID: 132
 post_title: >
-  Bir Web Sayfasının Başlığını
-  Çekme
+  PHP Explode Kullanarak Bir Web
+  Sayfasının Başlığını Çekme
 author: Oral ÜNAL
 post_excerpt: ""
 layout: post
