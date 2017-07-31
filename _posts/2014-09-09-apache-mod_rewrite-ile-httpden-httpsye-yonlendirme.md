@@ -1,13 +1,11 @@
 ---
 ID: 5442
-post_title: >
-  HTTP Sorgularını HTTPS Apache
-  mod_rewrite Kullanarak Yölendirin
+post_title: 'HTTP Sorgularını HTTPS&#8217;ye Apache mod_rewrite Kullanarak Yölendirin'
 author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/apache-mod_rewrite-ile-httpden-httpsye-yonlendirme-5442.html
+  https://www.trkodlama.com/makaleler/htaccess/apache-mod_rewrite-ile-httpden-httpsye-yonlendirme-5442.html
 published: true
 post_date: 2014-09-09 17:42:28
 ---
