@@ -82,7 +82,7 @@ Başlamak için gayet makul! Temel etiketlerimizden <code>doctype</code>, <code>
 
 Neler yapıyoruz? <code>&lt;head&gt;</code> etiketi içerisine Bootstrap css dosyamızı ekleyelim...
 <pre class="line-numbers"><code class="language-markup">&lt;link href="css/bootstrap.min.css" rel="stylesheet"&gt;</code></pre>
-&lt;/body&gt; etiketinden önce jQuery'yi ekliyoruz Google CDN'den...
+<code>&lt;/body&gt;</code> etiketinden önce jQuery'yi ekliyoruz Google CDN'den...
 <pre class="line-numbers"><code class="language-markup">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;</code></pre>
 ve jQuery'den hemen sonra Bootstrap JS dosyasını ekleyelim...
 <pre class="line-numbers"><code class="language-markup">&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;</code></pre>
@@ -209,7 +209,6 @@ Artık stilimizi oluşturamaya başlayalım. Bir kaç dakika içerisinde sırada
 }</code></pre>
 Ana etiketlere bir kaç basit stil tanımlayalım. Ayrıca Montserrat fontunu tüm sayfamda kullanmak istiyorum, başlıkları kalın yapıyorum ve arkaplanı koyu hazırlarken metinleri açık yazdırıyorum:
 
-&nbsp;
 <pre class="line-numbers"><code class="language-css">body {
 	background: #3E4649;
 	color: #f7f7f7;
