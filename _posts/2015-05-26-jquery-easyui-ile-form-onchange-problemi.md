@@ -5,19 +5,14 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/jquery-easyui-ile-form-onchange-problemi-5790.html
+  https://www.trkodlama.com/web-tasarim-2/jquery-easyui-ile-form-onchange-problemi-5790.html
 published: true
 post_date: 2015-05-26 03:34:17
 ---
-Merhaba arkadaşlar,
-
-jQuery easyUI kullananlar için faydalı olabilecek bir makale olacak bu. jQuery easyUI ile <strong>textbox, datebox, numberbox </strong>ve <b>combobox</b> fonksiyonlarına sahibiz. Bunlar form inputlarımıza kütüphanimizin özelliklerini ekliyor. Fakat bu özellikleri ekledikten sonra
-
-<pre class="lang:html decode:1 " >&amp;lt;form action=&amp;quot;#&amp;quot; id=&amp;quot;trkodlamaForm&amp;quot; onChange=&amp;quot;degisimYapildi()&amp;quot;&amp;gt;</pre>
-
-formumuza örnekteki gibi onChange özelliği eklediğimizde değişikliği yakalayamıyor. Bu da doğal olarak bu özellikten faydalanamamanıza sebep oluyor. onChange özelliğinden faydalanmak için formunuzun üstüne aşağıdaki kodu eklerseniz probleminiz çözülecektir.
-
-<pre class="lang:javascript decode:1 " >(function($){
+<a href="https://www.jeasyui.com/">jQuery EasyUI</a> kullananlar yaşamıştır diye düşünüyorum. <em>Öncelikle belirtmekte fayda var, bu makale 2015 yılına ait, en son jQuery EasyUI üzerinde denenmemiştir.</em> jQuery easyUI ile <code>textbox</code>, <code>datebox</code>, <code>numberbox</code> ve <code>combobox</code> fonksiyonlarına sahibiz. Bu fonksiyonlar inputlara bazı modern özellikler ekliyor. Olay şurada başlıyor, inputlarımızı EasyUI ile daha işlevsel hale getirdiğimizde form onchange olayı yakalanmıyor. Yani şöyle ki aşağıdaki gibi başlayan bir formumuz olduğunu düşünün ve form inputlarında değişiklik yaptığımızda <code>degisimYapildi()</code> fonksiyonunun çalışmasını istiyoruz. Fakat çalışmıyor! İşte çözümü bu makalede!
+<pre class="line-numbers"><code class="language-markup">&lt;form action="#" id="trkodlamaForm" onChange="degisimYapildi()"&gt;</code></pre>
+jQuery EasyUI inputları bu onchange eventini yakalayamıyor.. onChange özelliğinden faydalanmak için jQuery EasyUI kütüphanemizi HTML'inize eklediğiniz satırdan sonra aşağıdaki JavaScript kodunu eklerseniz probleminiz çözülecektir:
+<pre class="line-numbers"><code class="language-javascript">(function($){
 	var numberbox = $.fn.numberbox.defaults.onChange;
 	$.fn.numberbox.defaults.onChange = function(newValue, oldValue){
 		$(this).closest('form').trigger('change');
@@ -39,6 +34,5 @@ formumuza örnekteki gibi onChange özelliği eklediğimizde değişikliği yaka
 		datebox.call(this, newValue, oldValue);
 	};
 
-})(jQuery);</pre>
-
+})(jQuery);</code></pre>
 Umarım faydalı olur, iyi geceler,
