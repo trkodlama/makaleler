@@ -20,7 +20,9 @@ post_date: 2011-08-08 14:41:51
 
 SEO, Arama Motorlarında sitelerin veya sayfaların üst sıralara çıkarılmasına yönelik yapılan çalışmaları kapsar.
 
-<iframe src="https://www.youtube.com/embed/-Z7YrsCBMnM?rel=0&amp;controls=0&amp;showinfo=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Z7YrsCBMnM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 SEO’nun temel amacı, açılımı itibariyle “Arama Motoru Optimizasyonu” yani Arama Motorlarında üst sıralarda listelenmektir. Bu amaç da, sitelerde yer alan bilgi, hizmet veya satışların daha fazla ilgili kitleye ulaştırılmasını sağlamaktır.
 
