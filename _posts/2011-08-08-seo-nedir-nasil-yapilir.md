@@ -2,7 +2,12 @@
 ID: 9956
 post_title: Seo Nedir? Nasıl Yapılır?
 author: Oral ÜNAL
-post_excerpt: ""
+post_excerpt: |
+  “SEO” (Search Engine Optimization), kısaltmasıdır. Arama motorları SEO işlemleri ile web sitelerini daha kolay bir şekilde taraması için yapılan teknik kriter düzenlemelerdir. (Search Engine Optimization) Türkçe de Arama motoru optimizasyonu demektir.
+  
+  SEO,arama motorlarına yönelik yapılan iyileştirme ve optimizasyon çalışmalarıdır. Site içi ve site dışı SEO olmak üzere ikiye ayrılmaktadır. Arama motorlarında yükselmek adına yapılan işlemlerin tamamını kapsamaktadır.
+  
+  SEO, Arama Motorlarında sitelerin veya sayfaların üst sıralara çıkarılmasına yönelik yapılan çalışmaları kapsar.
 layout: post
 permalink: >
   https://www.trkodlama.com/blog/seo-nedir-nasil-yapilir-9956.html
