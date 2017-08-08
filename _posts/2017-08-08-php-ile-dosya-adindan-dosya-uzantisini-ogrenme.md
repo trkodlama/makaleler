@@ -7,13 +7,13 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php-ile-dosya-adindan-dosya-uzantisini-ogrenme-9949.html
+  https://www.trkodlama.com/makaleler/ipuclari/php-ile-dosya-adindan-dosya-uzantisini-ogrenme-9949.html
 published: true
 post_date: 2017-08-08 09:54:06
 ---
-Oldukça kısa bir giriş yapacağım. Çünkü üzerine düşünülecek pek fazla bir şey yok. Aslında var. Şöyle ki eğer <code>pathinfo()</code> fonksiyonunu bilmiyorsanız bir dosyanın uzantasını dosya adından öğrenmek azıcık vaktinizi alabilir. Nasıl mı?
+Oldukça kısa bir giriş yapacağım. Çünkü üzerine düşünülecek pek fazla bir şey yok. Aslında var. Şöyle ki eğer <code>pathinfo()</code> fonksiyonunu bilmiyorsanız bir dosyanın uzantısını, dosya adından öğrenmek azıcık vaktinizi alabilir. Nasıl mı?
 
-Öncelikle <code>.</code> işareti ile dosya adını <code>explode()</code> ettiğiniz ve elde ettiğiniz dizinin <code>1</code> id'li elemanını çağırdınız. Sonra bir baktınız dosya adında birden fazla <code>.</code> var. O zaman <code>count()</code> fonksiyonu işin içine girdi. Saydınız, en sonuncu dizi elemanını çağırdınız falan filan... Çoook uzun iş.
+Öncelikle <code>.</code> işareti ile dosya adını <code>explode()</code> ettiniz ve elde ettiğiniz dizinin <code>1</code> id'li elemanını çağırdınız. Sonra bir baktınız dosya adında birden fazla <code>.</code> var. O zaman <code>count()</code> fonksiyonu işin içine girdi. Saydınız, en sonuncu dizi elemanını çağırdınız falan filan... Çoook uzun iş.
 
 Ben PHP programlamaya ilk başladığım da böyle yapmıştım. Hazır bir fonksiyon olduğunu bilmiyordum. Kaldı ki <a href="https://www.trkodlama.com/makaleler/dizideki-ifadeleri-for-dongusu-ile-toplama-58.html">dizi elemanlarını toplarken</a> bile bir dünya işe kalkışıyormuşum. Bunun hakkında yazı bile yazmışım :)
 
