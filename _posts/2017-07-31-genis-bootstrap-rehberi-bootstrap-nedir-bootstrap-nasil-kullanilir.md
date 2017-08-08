@@ -2,10 +2,15 @@
 ID: 9384
 post_title: 'Geniş Bootstrap Rehberi &#8211; Bootstrap Nedir? Bootstrap Nasıl Kullanılır?'
 author: Oral ÜNAL
-post_excerpt: ""
+post_excerpt: |
+  Web geliştirmeye biraz olsun merakınız varsa <a href="http://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a> kelimesini duymuşsunuz. Resmi web sitesine göre, <strong>Bootstrap, duyarlı ve mobil öncelikli web sitesi geliştirmek için kullanılan en popüler HTML, CSS ve JavaScript framework'dür</strong>. Müthiş bir açıklama ama nasıl kullanacağız?
+  
+  Bu aşamada sizi <strong>Bootstrap</strong>'ın <a href="http://getbootstrap.com/getting-started/" target="_blank" rel="noopener">Getting Started</a> sayfasına yönlendirmek yapılacak en kolay iş olurdu muhtemelen. Çünkü kurulum rehberleri gerçekten çok faydalı bilgiler içeriyor - CDN linkleri, Bower, npm ve Composer ile nasıl kurulacağı, Autoprefixer ve LESS entegrasyonu, bir kaç tema, lisanslar ve tercümeler - ama en nihayetinde bu sayfa adım-adım bir başlangıç rehberi pek sayılmaz.
+  
+  Bir kaç sene önce Bootstrap'ı ilk keşfettiğimde responsive tasarım şimdiki kadar popüler değildi. Resmi dökümanlarını incelerken kafam biraz karışmıştı. Şöyle ki rehberleri komponent bazında inceleyip birbirleriyle yoğurma kısmını çok kolay idrak edememiştim. Yeni başlayanlar içinde oldukça karışık bir rehber olduğunun farkındayım.
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/bootstrap/genis-bootstrap-rehberi-bootstrap-nedir-bootstrap-nasil-kullanilir-9384.html
+  https://www.trkodlama.com/web-tasarim-2/genis-bootstrap-rehberi-bootstrap-nedir-bootstrap-nasil-kullanilir-9384.html
 published: true
 post_date: 2017-07-31 17:09:20
 ---
