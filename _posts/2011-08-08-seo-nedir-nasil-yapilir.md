@@ -1,11 +1,11 @@
 ---
 ID: 9956
-post_title: ""
+post_title: Seo Nedir? Nasıl Yapılır?
 author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/blog/9956-9956.html
+  https://www.trkodlama.com/blog/seo-nedir-nasil-yapilir-9956.html
 published: true
 post_date: 2011-08-08 14:41:51
 ---
