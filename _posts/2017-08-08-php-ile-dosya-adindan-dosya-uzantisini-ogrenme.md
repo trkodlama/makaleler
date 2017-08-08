@@ -4,10 +4,10 @@ post_title: >
   PHP ile Dosya Adından Dosya
   Uzantısını Öğrenme
 author: Oral ÜNAL
-post_excerpt: ""
+post_excerpt: 'Oldukça kısa bir giriş yapacağım. Çünkü üzerine düşünülecek pek fazla bir şey yok. Aslında var. Şöyle ki eğer <code>pathinfo()</code> fonksiyonunu bilmiyorsanız bir dosyanın uzantısını, dosya adından öğrenmek azıcık vaktinizi alabilir. Nasıl mı?'
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/ipuclari/php-ile-dosya-adindan-dosya-uzantisini-ogrenme-9949.html
+  https://www.trkodlama.com/makaleler/php-ile-dosya-adindan-dosya-uzantisini-ogrenme-9949.html
 published: true
 post_date: 2017-08-08 09:54:06
 ---
