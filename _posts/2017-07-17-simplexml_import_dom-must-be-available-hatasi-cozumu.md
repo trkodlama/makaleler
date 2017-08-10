@@ -17,7 +17,7 @@ technical requirements! Fix the following issues before executing
 your Symfony application:
 
 * simplexml_import_dom() must be available
-&gt; Install and enable the SimpleXML extension.
+> Install and enable the SimpleXML extension.
 
 After fixing these issues, re-check Symfony requirements executing this command:
 
@@ -36,7 +36,7 @@ Then, you can:
 * Read the documentation at http://symfony.com/doc</blockquote>
 <h2>simplexml_import_dom() must be available Hatasının Çözümü</h2>
 Hatayı almanızın sebebi PHP-XML'in kurulu olmamasıdır. Hatanın çözümü de oldukça basittir. PHP-XML kurmanız yeterli olacaktır:
-<pre class="command-line" data-user="root" data-host="trkodlama"><code>sudo apt-get install php-xml</code></pre>
+<pre class="command-line" data-user="root" data-host="trkodlama"><code class="language-markup">sudo apt-get install php-xml</code></pre>
 Umarım faydalı olur arkadaşlar,
 
 Kaynak: <a href="http://www.phpfriend.com/how-to-install-symfony-2-8-under-ubuntu-16-04/">phpfriend.com/how-to-install-symfony-2-8-under-ubuntu-16-04/</a>
