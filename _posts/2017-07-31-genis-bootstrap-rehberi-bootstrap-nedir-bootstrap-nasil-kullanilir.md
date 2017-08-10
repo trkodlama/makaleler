@@ -3,9 +3,9 @@ ID: 9384
 post_title: 'Geniş Bootstrap Rehberi &#8211; Bootstrap Nedir? Bootstrap Nasıl Kullanılır?'
 author: Oral ÜNAL
 post_excerpt: |
-  Web geliştirmeye biraz olsun merakınız varsa <a href="http://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a> kelimesini duymuşsunuz. Resmi web sitesine göre, <strong>Bootstrap, duyarlı ve mobil öncelikli web sitesi geliştirmek için kullanılan en popüler HTML, CSS ve JavaScript framework'dür</strong>. Müthiş bir açıklama ama nasıl kullanacağız?
+  Web geliştirmeye biraz olsun merakınız varsa <a href="http://getbootstrap.com/">Bootstrap</a> kelimesini duymuşsunuz. Resmi web sitesine göre, <strong>Bootstrap, duyarlı ve mobil öncelikli web sitesi geliştirmek için kullanılan en popüler HTML, CSS ve JavaScript framework'dür</strong>. Müthiş bir açıklama ama nasıl kullanacağız?
   
-  Bu aşamada sizi <strong>Bootstrap</strong>'ın <a href="http://getbootstrap.com/getting-started/" target="_blank" rel="noopener">Getting Started</a> sayfasına yönlendirmek yapılacak en kolay iş olurdu muhtemelen. Çünkü kurulum rehberleri gerçekten çok faydalı bilgiler içeriyor - CDN linkleri, Bower, npm ve Composer ile nasıl kurulacağı, Autoprefixer ve LESS entegrasyonu, bir kaç tema, lisanslar ve tercümeler - ama en nihayetinde bu sayfa adım-adım bir başlangıç rehberi pek sayılmaz.
+  Bu aşamada sizi <strong>Bootstrap</strong>'ın <a href="http://getbootstrap.com/getting-started/">Getting Started</a> sayfasına yönlendirmek yapılacak en kolay iş olurdu muhtemelen. Çünkü kurulum rehberleri gerçekten çok faydalı bilgiler içeriyor - CDN linkleri, Bower, npm ve Composer ile nasıl kurulacağı, Autoprefixer ve LESS entegrasyonu, bir kaç tema, lisanslar ve tercümeler - ama en nihayetinde bu sayfa adım-adım bir başlangıç rehberi pek sayılmaz.
   
   Bir kaç sene önce Bootstrap'ı ilk keşfettiğimde responsive tasarım şimdiki kadar popüler değildi. Resmi dökümanlarını incelerken kafam biraz karışmıştı. Şöyle ki rehberleri komponent bazında inceleyip birbirleriyle yoğurma kısmını çok kolay idrak edememiştim. Yeni başlayanlar içinde oldukça karışık bir rehber olduğunun farkındayım.
 layout: post
@@ -14,9 +14,9 @@ permalink: >
 published: true
 post_date: 2017-07-31 17:09:20
 ---
-Web geliştirmeye biraz olsun merakınız varsa <a href="http://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a> kelimesini duymuşsunuz. Resmi web sitesine göre, <strong>Bootstrap, duyarlı ve mobil öncelikli web sitesi geliştirmek için kullanılan en popüler HTML, CSS ve JavaScript framework'dür</strong>. Müthiş bir açıklama ama nasıl kullanacağız?
+Web geliştirmeye biraz olsun merakınız varsa <a href="http://getbootstrap.com/">Bootstrap</a> kelimesini duymuşsunuz. Resmi web sitesine göre, <strong>Bootstrap, duyarlı ve mobil öncelikli web sitesi geliştirmek için kullanılan en popüler HTML, CSS ve JavaScript framework'dür</strong>. Müthiş bir açıklama ama nasıl kullanacağız?
 
-Bu aşamada sizi <strong>Bootstrap</strong>'ın <a href="http://getbootstrap.com/getting-started/" target="_blank" rel="noopener">Getting Started</a> sayfasına yönlendirmek yapılacak en kolay iş olurdu muhtemelen. Çünkü kurulum rehberleri gerçekten çok faydalı bilgiler içeriyor - CDN linkleri, Bower, npm ve Composer ile nasıl kurulacağı, Autoprefixer ve LESS entegrasyonu, bir kaç tema, lisanslar ve tercümeler - ama en nihayetinde bu sayfa adım-adım bir başlangıç rehberi pek sayılmaz.
+Bu aşamada sizi <strong>Bootstrap</strong>'ın <a href="http://getbootstrap.com/getting-started/">Getting Started</a> sayfasına yönlendirmek yapılacak en kolay iş olurdu muhtemelen. Çünkü kurulum rehberleri gerçekten çok faydalı bilgiler içeriyor - CDN linkleri, Bower, npm ve Composer ile nasıl kurulacağı, Autoprefixer ve LESS entegrasyonu, bir kaç tema, lisanslar ve tercümeler - ama en nihayetinde bu sayfa adım-adım bir başlangıç rehberi pek sayılmaz.
 
 Bir kaç sene önce Bootstrap'ı ilk keşfettiğimde responsive tasarım şimdiki kadar popüler değildi. Resmi dökümanlarını incelerken kafam biraz karışmıştı. Şöyle ki rehberleri komponent bazında inceleyip birbirleriyle yoğurma kısmını çok kolay idrak edememiştim. Yeni başlayanlar içinde oldukça karışık bir rehber olduğunun farkındayım.
 
@@ -213,7 +213,6 @@ Artık stilimizi oluşturamaya başlayalım. Bir kaç dakika içerisinde sırada
 	margin-bottom: 0;
 }</code></pre>
 Ana etiketlere bir kaç basit stil tanımlayalım. Ayrıca Montserrat fontunu tüm sayfamda kullanmak istiyorum, başlıkları kalın yapıyorum ve arkaplanı koyu hazırlarken metinleri açık yazdırıyorum:
-
 <pre class="line-numbers"><code class="language-css">body {
 	background: #3E4649;
 	color: #f7f7f7;
