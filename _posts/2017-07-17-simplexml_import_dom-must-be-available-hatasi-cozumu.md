@@ -9,10 +9,10 @@ permalink: >
 published: true
 post_date: 2017-07-17 21:19:09
 ---
-<strong>Symfony</strong> ile yeni bir proje oluştururken bu hata ile karşılaştım. PHP7 kurdum, sonra symfony kurdum. Daha sonra <pre class="class:prettyprint lang-sh data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >symfony new projeminadi</pre> komutunu çalıştırdığımda bu hata ile karşılaştım:
+<strong>Symfony</strong> ile yeni bir proje oluştururken bu hata ile karşılaştım. PHP7 kurdum, sonra symfony kurdum. Daha sonra <code>symfony new projeminadi</code> komutunu çalıştırdığımda bu hata ile karşılaştım:
+<blockquote>Preparing project...
 
-Preparing project...
-<blockquote>✕ Symfony 3.3.4 was successfully installed but your system doesn't meet its
+✕ Symfony 3.3.4 was successfully installed but your system doesn't meet its
 technical requirements! Fix the following issues before executing
 your Symfony application:
 
@@ -35,8 +35,8 @@ Then, you can:
 
 * Read the documentation at http://symfony.com/doc</blockquote>
 <h2>simplexml_import_dom() must be available Hatasının Çözümü</h2>
-Bu hatanın çözümü oldukça basittir. PHP-XML kurmanız yeterli olacaktır:
-<pre class="prettyprint lang-sh" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">sudo apt-get install php-xml</pre>
+Hatayı almanızın sebebi PHP-XML'in kurulu olmamasıdır. Hatanın çözümü de oldukça basittir. PHP-XML kurmanız yeterli olacaktır:
+<pre class="line-numbers command-line" data-user="root" data-host="trkodlama"><code>sudo apt-get install php-xml</code></pre>
 Umarım faydalı olur arkadaşlar,
 
 Kaynak: <a href="http://www.phpfriend.com/how-to-install-symfony-2-8-under-ubuntu-16-04/">phpfriend.com/how-to-install-symfony-2-8-under-ubuntu-16-04/</a>
