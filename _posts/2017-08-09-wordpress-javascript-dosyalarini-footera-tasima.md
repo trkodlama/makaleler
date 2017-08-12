@@ -3,7 +3,7 @@ ID: 9960
 post_title: >
   WordPress Javascript Dosyalarını
   Footer’a Taşıma
-author: Oral ÜNAL
+author: Hakan Eren KESKİN
 post_excerpt: ""
 layout: post
 permalink: >
