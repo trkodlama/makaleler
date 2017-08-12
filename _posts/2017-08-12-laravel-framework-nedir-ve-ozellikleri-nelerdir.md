@@ -3,7 +3,7 @@ ID: 9991
 post_title: >
   Laravel Framework Nedir Ve Özellikleri
   Nelerdir?
-author: sinestik
+author: Sinan Eldem
 post_excerpt: ""
 layout: post
 permalink: >
