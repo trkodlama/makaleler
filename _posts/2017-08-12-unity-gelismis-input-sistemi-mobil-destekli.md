@@ -3,7 +3,7 @@ ID: 9984
 post_title: >
   Unity Gelişmiş Input Sistemi (Mobil
   Destekli)
-author: Oral ÜNAL
+author: Süleyman Yasir KULA
 post_excerpt: ""
 layout: post
 permalink: >
