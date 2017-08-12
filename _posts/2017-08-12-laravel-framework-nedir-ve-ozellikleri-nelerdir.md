@@ -91,9 +91,9 @@ Github adresi: <a href="https://github.com/laravel/laravel">https://github.com/l
 Git clone: <a href="https://github.com/laravel/laravel.git">https://github.com/laravel/laravel.git</a>
 
 Kurulum yapmak istediğimiz dizine gelerek
-<pre class="command-line"><code class="language-bash">git clone  https://github.com/laravel/laravel.git</code></pre>
+<pre class="command-line" data-host="trkodlama" data-user="root"><code class="language-bash">git clone  https://github.com/laravel/laravel.git</code></pre>
 ile git reposundan kendi localimize çekiyoruz. Sonra composer ile laravel in bağımlılıklarını yüklememizi sağlar.(Biliyoruz ki artık composer kullanıyoruz laravel bağımlılıklar, paketler için)
-<pre class="line-numbers"><code class="language-bash">composer install</code></pre>
+<pre class="command-line" data-host="trkodlama" data-user="root"><code class="language-bash">composer install</code></pre>
 Evet laravel freamwork edinmiş olduk artık. Sunucunuzdan laraveli indirdiğiniz dizine gelirseniz, public klasöründe laravel in çalıştığını görürüz. Bizi laravel logosunun karşlıladığı bir sayfa görüyorsak her şey yolundadır.
 
 Benim örneğimden “http://localhost/testLaravel/” girdiğimde laravel dizinleri gösterilir.
