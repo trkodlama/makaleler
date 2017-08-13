@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/php-ile-sef-link-yapin-ve-kullanin-213.html
+  https://www.trkodlama.com/makaleler/php-ile-sef-link-yapin-ve-kullanin-213.html
 published: true
 post_date: 2011-07-12 23:12:13
 ---

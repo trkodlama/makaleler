@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/blog/pokemon-go/pokemon-go-gym-guncellemesi-9264.html
+  https://www.trkodlama.com/blog/pokemon-go-gym-guncellemesi-9264.html
 published: true
 post_date: 2017-06-23 01:20:13
 ---

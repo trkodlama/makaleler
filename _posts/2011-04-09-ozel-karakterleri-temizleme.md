@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-gelistirme/ozel-karakterleri-temizleme-147.html
+  https://www.trkodlama.com/makaleler/ozel-karakterleri-temizleme-147.html
 published: true
 post_date: 2011-04-09 17:50:36
 ---

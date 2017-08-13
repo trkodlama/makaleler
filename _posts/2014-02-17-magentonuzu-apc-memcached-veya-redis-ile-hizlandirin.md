@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/magento/magentonuzu-apc-memcached-veya-redis-ile-hizlandirin-5283.html
+  https://www.trkodlama.com/makaleler/magentonuzu-apc-memcached-veya-redis-ile-hizlandirin-5283.html
 published: true
 post_date: 2014-02-17 15:29:37
 ---

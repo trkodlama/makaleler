@@ -5,7 +5,7 @@ author: Shibby Tersakyan
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/python/python-ile-ekran-goruntusu-kaydetme-371.html
+  https://www.trkodlama.com/makaleler/python-ile-ekran-goruntusu-kaydetme-371.html
 published: true
 post_date: 2012-03-18 16:19:11
 ---

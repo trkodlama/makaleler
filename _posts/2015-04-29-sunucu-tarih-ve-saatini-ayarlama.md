@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-sunucu/sunucu-tarih-ve-saatini-ayarlama-5722.html
+  https://www.trkodlama.com/makaleler/sunucu-tarih-ve-saatini-ayarlama-5722.html
 published: true
 post_date: 2015-04-29 09:21:52
 ---

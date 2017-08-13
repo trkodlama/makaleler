@@ -5,7 +5,7 @@ author: Shibby Tersakyan
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/android/androidde-internet-varyok-kontrolu-385.html
+  https://www.trkodlama.com/makaleler/androidde-internet-varyok-kontrolu-385.html
 published: true
 post_date: 2012-03-20 05:17:01
 ---

@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-gelistirme/php-ile-xml-dosyadan-veri-cekme-71.html
+  https://www.trkodlama.com/makaleler/php-ile-xml-dosyadan-veri-cekme-71.html
 published: true
 post_date: 2010-08-02 08:06:11
 ---

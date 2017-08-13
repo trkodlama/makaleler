@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-sunucu/ters-vekil-sunucusureverse-proxy-server-nedir-5812.html
+  https://www.trkodlama.com/makaleler/ters-vekil-sunucusureverse-proxy-server-nedir-5812.html
 published: true
 post_date: 2015-06-17 01:59:07
 ---

@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/seo/arama-motoru-optimizasyonu-icin-yapilacaklar-46.html
+  https://www.trkodlama.com/web-tasarim-2/arama-motoru-optimizasyonu-icin-yapilacaklar-46.html
 published: true
 post_date: 2009-06-12 07:24:58
 ---

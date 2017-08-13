@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/wordpressde-sayfanizin-ustunde-bulunan-emoji-kodlarini-kaldirma-6308.html
+  https://www.trkodlama.com/makaleler/wordpressde-sayfanizin-ustunde-bulunan-emoji-kodlarini-kaldirma-6308.html
 published: true
 post_date: 2017-01-22 19:19:00
 ---

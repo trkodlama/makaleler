@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/bbcode-kodunu-htmle-cevirme-115.html
+  https://www.trkodlama.com/makaleler/bbcode-kodunu-htmle-cevirme-115.html
 published: true
 post_date: 2011-03-17 09:04:08
 ---

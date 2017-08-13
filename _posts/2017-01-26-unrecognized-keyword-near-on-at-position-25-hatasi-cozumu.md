@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/unrecognized-keyword-near-on-at-position-25-hatasi-cozumu-6443.html
+  https://www.trkodlama.com/makaleler/unrecognized-keyword-near-on-at-position-25-hatasi-cozumu-6443.html
 published: true
 post_date: 2017-01-26 15:22:02
 ---

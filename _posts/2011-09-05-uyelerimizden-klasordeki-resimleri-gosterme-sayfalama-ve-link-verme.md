@@ -7,7 +7,7 @@ author: damatmedya
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/uyelerimizden-klasordeki-resimleri-gosterme-sayfalama-ve-link-verme-244.html
+  https://www.trkodlama.com/makaleler/uyelerimizden-klasordeki-resimleri-gosterme-sayfalama-ve-link-verme-244.html
 published: true
 post_date: 2011-09-05 01:02:32
 ---

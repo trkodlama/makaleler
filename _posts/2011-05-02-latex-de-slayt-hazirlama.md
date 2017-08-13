@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/latex/latex-de-slayt-hazirlama-176.html
+  https://www.trkodlama.com/makaleler/latex-de-slayt-hazirlama-176.html
 published: true
 post_date: 2011-05-02 18:55:56
 ---

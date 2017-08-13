@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/varnish/varnishde-fontlariniza-cors-headerlari-ekleyin-6059.html
+  https://www.trkodlama.com/makaleler/varnishde-fontlariniza-cors-headerlari-ekleyin-6059.html
 published: true
 post_date: 2017-01-10 00:10:30
 ---

@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/varnish/varnish-4-kurulumunda-vcl-compilation-failed-hatasi-5971.html
+  https://www.trkodlama.com/makaleler/varnish-4-kurulumunda-vcl-compilation-failed-hatasi-5971.html
 published: true
 post_date: 2016-12-28 05:53:47
 ---

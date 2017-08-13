@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-gelistirme/htmlden-kacmak-5764.html
+  https://www.trkodlama.com/makaleler/htmlden-kacmak-5764.html
 published: true
 post_date: 2011-05-25 12:37:56
 ---

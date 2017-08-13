@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/php-mail-fonksiyonuyla-html-mail-gonderme-211.html
+  https://www.trkodlama.com/makaleler/php-mail-fonksiyonuyla-html-mail-gonderme-211.html
 published: true
 post_date: 2011-07-12 22:59:17
 ---

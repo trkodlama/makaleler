@@ -5,7 +5,7 @@ author: Yiğit Can TÜRE
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/masaustu-gelistirme/unity3d-ile-c-scripts-kullanarak-obje-hareket-ettirme-2265.html
+  https://www.trkodlama.com/makaleler/unity3d-ile-c-scripts-kullanarak-obje-hareket-ettirme-2265.html
 published: true
 post_date: 2013-08-06 22:08:32
 ---

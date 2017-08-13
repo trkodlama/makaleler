@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/ipuclari/kodlama-ogrenirken-zeigarnik-etkisinden-faydalanin-6406.html
+  https://www.trkodlama.com/makaleler/kodlama-ogrenirken-zeigarnik-etkisinden-faydalanin-6406.html
 published: true
 post_date: 2017-01-25 09:07:35
 ---

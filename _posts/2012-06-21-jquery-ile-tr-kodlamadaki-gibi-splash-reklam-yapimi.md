@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/ipuclari/jquery-ile-tr-kodlamadaki-gibi-splash-reklam-yapimi-796.html
+  https://www.trkodlama.com/makaleler/jquery-ile-tr-kodlamadaki-gibi-splash-reklam-yapimi-796.html
 published: true
 post_date: 2012-06-21 06:01:45
 ---

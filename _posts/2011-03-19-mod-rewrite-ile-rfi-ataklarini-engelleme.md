@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/guvenlik/mod-rewrite-ile-rfi-ataklarini-engelleme-123.html
+  https://www.trkodlama.com/makaleler/mod-rewrite-ile-rfi-ataklarini-engelleme-123.html
 published: true
 post_date: 2011-03-19 16:21:44
 ---

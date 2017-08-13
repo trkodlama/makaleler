@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/dizideki-ifadeleri-for-dongusu-ile-toplama-58.html
+  https://www.trkodlama.com/makaleler/dizideki-ifadeleri-for-dongusu-ile-toplama-58.html
 published: true
 post_date: 2010-07-13 07:41:32
 ---

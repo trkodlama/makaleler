@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/blog/duyurular/blogumu-acmis-bulunuyorum-9275.html
+  https://www.trkodlama.com/blog/blogumu-acmis-bulunuyorum-9275.html
 published: true
 post_date: 2017-06-22 00:16:07
 ---

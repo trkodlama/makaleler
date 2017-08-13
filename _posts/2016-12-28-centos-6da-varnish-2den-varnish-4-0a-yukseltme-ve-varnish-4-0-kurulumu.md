@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/varnish/centos-6da-varnish-2den-varnish-4-0a-yukseltme-ve-varnish-4-0-kurulumu-5969.html
+  https://www.trkodlama.com/makaleler/centos-6da-varnish-2den-varnish-4-0a-yukseltme-ve-varnish-4-0-kurulumu-5969.html
 published: true
 post_date: 2016-12-28 03:30:58
 ---

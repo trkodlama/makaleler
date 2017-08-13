@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/diger-web-tasarim-2/lorem-ipsum-nedir-99.html
+  https://www.trkodlama.com/web-tasarim-2/lorem-ipsum-nedir-99.html
 published: true
 post_date: 2011-03-15 08:41:35
 ---

@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/php-ile-her-zaman-alt-veya-ust-degere-yuvarlama-6384.html
+  https://www.trkodlama.com/makaleler/php-ile-her-zaman-alt-veya-ust-degere-yuvarlama-6384.html
 published: true
 post_date: 2017-01-24 15:28:04
 ---

@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/symfony-3/php-symfony-frameworku-ile-calisirken-phpstorm-kullaniyoruz-9178.html
+  https://www.trkodlama.com/makaleler/php-symfony-frameworku-ile-calisirken-phpstorm-kullaniyoruz-9178.html
 published: true
 post_date: 2017-02-13 19:55:26
 ---

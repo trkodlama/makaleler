@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/html5/html5-hakkinda-178.html
+  https://www.trkodlama.com/web-tasarim-2/html5-hakkinda-178.html
 published: true
 post_date: 2011-05-05 19:00:35
 ---

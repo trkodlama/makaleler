@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/seo/robots-txt-dosyasi-kullanimi-6337.html
+  https://www.trkodlama.com/web-tasarim-2/robots-txt-dosyasi-kullanimi-6337.html
 published: true
 post_date: 2017-01-23 12:19:07
 ---

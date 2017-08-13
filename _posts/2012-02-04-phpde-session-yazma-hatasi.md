@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-sunucu/phpde-session-yazma-hatasi-285.html
+  https://www.trkodlama.com/makaleler/phpde-session-yazma-hatasi-285.html
 published: true
 post_date: 2012-02-04 02:43:18
 ---

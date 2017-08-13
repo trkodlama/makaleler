@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/latex/latex-de-resim-ekleme-159.html
+  https://www.trkodlama.com/makaleler/latex-de-resim-ekleme-159.html
 published: true
 post_date: 2011-04-22 18:30:37
 ---

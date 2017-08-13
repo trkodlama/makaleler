@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/jquery-web-tasarim-2/ctrl-tus-kombinasyonunu-trkctrl-ile-yakalayip-isleme-238.html
+  https://www.trkodlama.com/web-tasarim-2/ctrl-tus-kombinasyonunu-trkctrl-ile-yakalayip-isleme-238.html
 published: true
 post_date: 2011-09-02 00:44:53
 ---

@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/datatables/datatablesde-bos-json-gondermek-9280.html
+  https://www.trkodlama.com/makaleler/datatablesde-bos-json-gondermek-9280.html
 published: true
 post_date: 2017-07-07 13:55:40
 ---

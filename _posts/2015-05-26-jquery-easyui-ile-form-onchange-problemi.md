@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/jquery-web-tasarim-2/jquery-easyui-ile-form-onchange-problemi-5790.html
+  https://www.trkodlama.com/web-tasarim-2/jquery-easyui-ile-form-onchange-problemi-5790.html
 published: true
 post_date: 2015-05-26 03:34:17
 ---

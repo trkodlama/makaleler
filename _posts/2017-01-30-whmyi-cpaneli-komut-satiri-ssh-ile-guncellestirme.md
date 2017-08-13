@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/cpanel/whmyi-cpaneli-komut-satiri-ssh-ile-guncellestirme-6456.html
+  https://www.trkodlama.com/makaleler/whmyi-cpaneli-komut-satiri-ssh-ile-guncellestirme-6456.html
 published: true
 post_date: 2017-01-30 08:35:55
 ---

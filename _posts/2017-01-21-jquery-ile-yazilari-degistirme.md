@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/javascript/jquery-ile-yazilari-degistirme-6300.html
+  https://www.trkodlama.com/makaleler/jquery-ile-yazilari-degistirme-6300.html
 published: true
 post_date: 2017-01-21 09:03:56
 ---

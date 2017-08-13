@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/jquery-web-tasarim-2/jquery-ile-divi-ortalama-130.html
+  https://www.trkodlama.com/web-tasarim-2/jquery-ile-divi-ortalama-130.html
 published: true
 post_date: 2011-04-03 17:13:24
 ---

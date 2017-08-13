@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/jquery/javascript-ile-uzak-adresten-veri-cekmek-302.html
+  https://www.trkodlama.com/makaleler/javascript-ile-uzak-adresten-veri-cekmek-302.html
 published: true
 post_date: 2012-02-23 03:04:45
 ---

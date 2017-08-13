@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/blog/internetten-para-kazanin/usta-ciftlik-ile-oyun-oynayarak-para-kazanin-kazanc-hesaplama-araci-9239.html
+  https://www.trkodlama.com/blog/usta-ciftlik-ile-oyun-oynayarak-para-kazanin-kazanc-hesaplama-araci-9239.html
 published: true
 post_date: 2017-06-04 06:00:22
 ---

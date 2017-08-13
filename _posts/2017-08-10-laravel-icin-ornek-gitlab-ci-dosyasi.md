@@ -1,7 +1,7 @@
 ---
 ID: 9979
 post_title: Laravel için Örnek GitLab CI Dosyası
-author: Oral ÜNAL
+author: Shibby Tersakyan
 post_excerpt: ""
 layout: post
 permalink: >

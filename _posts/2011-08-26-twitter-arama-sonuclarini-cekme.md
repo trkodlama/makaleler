@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/twitter-api/twitter-arama-sonuclarini-cekme-233.html
+  https://www.trkodlama.com/makaleler/twitter-arama-sonuclarini-cekme-233.html
 published: true
 post_date: 2011-08-26 00:36:25
 ---

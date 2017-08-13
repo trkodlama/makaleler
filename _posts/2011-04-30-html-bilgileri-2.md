@@ -5,7 +5,7 @@ author: prodigy
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/html/html-bilgileri-2-173.html
+  https://www.trkodlama.com/web-tasarim-2/html-bilgileri-2-173.html
 published: true
 post_date: 2011-04-30 18:47:36
 ---

@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/symfony-3/mevcut-veritabaninizi-symfony-doctrine-varligina-cevirme-9325.html
+  https://www.trkodlama.com/makaleler/mevcut-veritabaninizi-symfony-doctrine-varligina-cevirme-9325.html
 published: true
 post_date: 2017-07-21 03:42:09
 ---

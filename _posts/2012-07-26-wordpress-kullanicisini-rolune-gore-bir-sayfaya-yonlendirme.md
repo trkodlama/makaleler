@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/wordpress-kullanicisini-rolune-gore-bir-sayfaya-yonlendirme-1236.html
+  https://www.trkodlama.com/makaleler/wordpress-kullanicisini-rolune-gore-bir-sayfaya-yonlendirme-1236.html
 published: true
 post_date: 2012-07-26 21:52:45
 ---

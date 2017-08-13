@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/wordpress-temalarinizin-menulerini-mobil-uyumlu-hale-getirme-9149.html
+  https://www.trkodlama.com/makaleler/wordpress-temalarinizin-menulerini-mobil-uyumlu-hale-getirme-9149.html
 published: true
 post_date: 2017-02-11 03:36:36
 ---
@@ -41,7 +41,7 @@ SlickNav'ı web sitenizde çalıştırmak onu JavaScript ile çağırmanız gere
 jQuery(function(){
     jQuery('#menu').slicknav();
 });</pre>
-Yukarıdaki kodda <code class="prettyprint lang-javascript" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">#menu</code> kısmına dikkat edin. Bu isim WordPress temanızda kullanılan ana navigasyon öğenizin ID'si ile eşleşmelidir. Çoğunlukla primary-menu, primary-nav, navigation, menu gibi isimlere sahiptir.
+Yukarıdaki kodda <pre class="class:prettyprint lang-javascript data-start-line:1 data-visibility:visible data-highlight: data-caption: decode:1 " >#menu</pre> kısmına dikkat edin. Bu isim WordPress temanızda kullanılan ana navigasyon öğenizin ID'si ile eşleşmelidir. Çoğunlukla primary-menu, primary-nav, navigation, menu gibi isimlere sahiptir.
 
 SlickNav'da kullanabileceğiniz bir çok özelliği mevcuttur. SlickNav özelliklerini görmek için linke tıklayınız: <a href="http://slicknav.com/#usage" target="_blank">slicknav.com/#usage</a>
 <h2>Adım 3 - functions.php Dosyanızı Düzenleyin</h2>

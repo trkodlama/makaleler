@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/jquery/jquery-ile-sadece-bir-sefer-tiklama-952.html
+  https://www.trkodlama.com/makaleler/jquery-ile-sadece-bir-sefer-tiklama-952.html
 published: true
 post_date: 2012-07-08 21:10:17
 ---

@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/warning-cannot-modify-header-information-78.html
+  https://www.trkodlama.com/makaleler/warning-cannot-modify-header-information-78.html
 published: true
 post_date: 2010-08-04 08:17:34
 ---

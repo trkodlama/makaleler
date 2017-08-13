@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/wordpress-icin-varnish-4-ornek-vcl-dosyasi-5975.html
+  https://www.trkodlama.com/makaleler/wordpress-icin-varnish-4-ornek-vcl-dosyasi-5975.html
 published: true
 post_date: 2016-12-29 19:02:58
 ---

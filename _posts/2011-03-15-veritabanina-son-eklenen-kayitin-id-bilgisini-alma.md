@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/veritabanina-son-eklenen-kayitin-id-bilgisini-alma-108.html
+  https://www.trkodlama.com/makaleler/veritabanina-son-eklenen-kayitin-id-bilgisini-alma-108.html
 published: true
 post_date: 2011-03-15 08:53:32
 ---

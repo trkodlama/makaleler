@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/jquery/form-inputdaki-verileri-diger-inputa-kopyalama-97.html
+  https://www.trkodlama.com/makaleler/form-inputdaki-verileri-diger-inputa-kopyalama-97.html
 published: true
 post_date: 2011-03-15 08:38:58
 ---

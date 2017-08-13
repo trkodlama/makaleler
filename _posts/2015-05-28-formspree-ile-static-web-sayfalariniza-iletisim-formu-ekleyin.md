@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-tasarim/formspree-ile-static-web-sayfalariniza-iletisim-formu-ekleyin-5795.html
+  https://www.trkodlama.com/makaleler/formspree-ile-static-web-sayfalariniza-iletisim-formu-ekleyin-5795.html
 published: true
 post_date: 2015-05-28 04:41:26
 ---

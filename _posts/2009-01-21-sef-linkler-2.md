@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/sef-linkler-2-10.html
+  https://www.trkodlama.com/makaleler/sef-linkler-2-10.html
 published: true
 post_date: 2009-01-21 06:18:48
 ---

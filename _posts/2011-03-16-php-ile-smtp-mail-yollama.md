@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/php-ile-smtp-mail-yollama-112.html
+  https://www.trkodlama.com/makaleler/php-ile-smtp-mail-yollama-112.html
 published: true
 post_date: 2011-03-16 09:00:30
 ---

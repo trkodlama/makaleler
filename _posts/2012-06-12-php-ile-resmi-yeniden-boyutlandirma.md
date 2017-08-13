@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/php-ile-resmi-yeniden-boyutlandirma-471.html
+  https://www.trkodlama.com/makaleler/php-ile-resmi-yeniden-boyutlandirma-471.html
 published: true
 post_date: 2012-06-12 01:31:07
 ---

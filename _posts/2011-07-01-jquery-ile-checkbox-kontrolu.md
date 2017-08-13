@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/jquery/jquery-ile-checkbox-kontrolu-207.html
+  https://www.trkodlama.com/makaleler/jquery-ile-checkbox-kontrolu-207.html
 published: true
 post_date: 2011-07-01 22:47:06
 ---

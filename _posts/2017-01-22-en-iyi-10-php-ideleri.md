@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/ideler/en-iyi-10-php-ideleri-6304.html
+  https://www.trkodlama.com/makaleler/en-iyi-10-php-ideleri-6304.html
 published: true
 post_date: 2017-01-22 23:24:56
 ---

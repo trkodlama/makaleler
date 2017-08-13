@@ -7,7 +7,7 @@ author: damatmedya
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/jquery-web-tasarim-2/uyelerimizden-resim-yuklenemiyorsa-farkli-resim-gosterme-259.html
+  https://www.trkodlama.com/web-tasarim-2/uyelerimizden-resim-yuklenemiyorsa-farkli-resim-gosterme-259.html
 published: true
 post_date: 2011-09-15 01:50:59
 ---

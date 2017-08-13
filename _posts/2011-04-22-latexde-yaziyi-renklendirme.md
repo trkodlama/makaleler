@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/latex/latexde-yaziyi-renklendirme-152.html
+  https://www.trkodlama.com/makaleler/latexde-yaziyi-renklendirme-152.html
 published: true
 post_date: 2011-04-22 18:01:57
 ---

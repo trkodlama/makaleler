@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/html5/tr-kodlama-dan-html5-taslagi-230.html
+  https://www.trkodlama.com/web-tasarim-2/tr-kodlama-dan-html5-taslagi-230.html
 published: true
 post_date: 2011-08-20 00:23:03
 ---
@@ -16,7 +16,8 @@ Daha önce sizlere HTML5 hakkında kısa bir bilgi vermiştim. Bugün de sizlere
 Aşağıdaki HTML5 Taslağı sayesinde yeni bir sayfa oluşturduğunuzda içini doldurmak için ekstra zaman kaybetmeyeceksiniz. Aşağıdaki taslak üzerinden html tasarımınıza rahatlıkla başlayabilirsiniz. Kullanılan etiketler hakkında kısa açıklamalarda da bulundum.
 
 İşte HTML5 taslağı:
-<pre class="prettyprint lang-html" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;!DOCTYPE HTML&gt;
+
+<pre class="lang:xhtml decode:true prettyprint lang-html  ">&lt;!DOCTYPE HTML&gt;
 &lt;html lang="tr"&gt;
     &lt;head&gt;
         &lt;meta charset="utf-8" /&gt;
@@ -29,45 +30,46 @@ Aşağıdaki HTML5 Taslağı sayesinde yeni bir sayfa oluşturduğunuzda içini 
     &lt;body&gt;
         &lt;section&gt;
         &lt;!-- section etiketi sayfanızı bölümlendirmeye yarar --&gt;
-        	&lt;header&gt;
+            &lt;header&gt;
             &lt;!-- header etiketi sayfalarınızın başlık kısımlarını belirtir --&gt;
-        		&lt;nav&gt;
+                &lt;nav&gt;
                 &lt;!-- nav etiketi menülerinizin bulunduğu kısmı belirtir --&gt;
-        		&lt;/nav&gt;
-        	&lt;/header&gt;
+                &lt;/nav&gt;
+            &lt;/header&gt;
         &lt;/section&gt;
         &lt;section&gt;
-        	&lt;article&gt;
+            &lt;article&gt;
             &lt;!-- article etiketi yazı alanlarını belirtmek için kullanılır --&gt;
-        	&lt;p&gt;TR Kodlama &lt;/p&gt;
-        	&lt;p&gt;Güncel Programlama Makaleleri&lt;/p&gt;
-        	&lt;figure&gt;
+            &lt;p&gt;TR Kodlama &lt;/p&gt;
+            &lt;p&gt;Güncel Programlama Makaleleri&lt;/p&gt;
+            &lt;figure&gt;
             &lt;!-- figure etiketi resim eklemenizi sağlar --&gt;
-        		&lt;img src="resim.png" /&gt;
-        		&lt;figcaption&gt;Deneme resim&lt;/figcaption&gt;
+                &lt;img src="resim.png" /&gt;
+                &lt;figcaption&gt;Deneme resim&lt;/figcaption&gt;
                 &lt;!-- figcaption etiketi resime açıklama eklemek için kullanılır --&gt;
-        	&lt;/figure&gt;
+            &lt;/figure&gt;
         
-        	&lt;small&gt;Küçük yazım&lt;/small&gt;&lt;!-- small etiketi yazıyı herhangi bir stil belirtmeden küçük yazdırmanızı sağlar --&gt;
-        	&lt;mark&gt;Vurgulu www.trkodlama.com&lt;/mark&gt;&lt;!-- mark etiketi yazılarınızı vurgulu yazmanızı sağlar --&gt;
+            &lt;small&gt;Küçük yazım&lt;/small&gt;&lt;!-- small etiketi yazıyı herhangi bir stil belirtmeden küçük yazdırmanızı sağlar --&gt;
+            &lt;mark&gt;Vurgulu www.trkodlama.com&lt;/mark&gt;&lt;!-- mark etiketi yazılarınızı vurgulu yazmanızı sağlar --&gt;
             
         &lt;/article&gt;
         &lt;/section&gt;
         &lt;section&gt;
-        	&lt;aside&gt;
+            &lt;aside&gt;
             &lt;!-- aside etiketi sağ ve sol bloklarınızı belirlemede kullanabilirsiniz --&gt;
             &lt;p&gt;TR Kodlama Forumu&lt;/p&gt;
-        	&lt;p&gt;Programlama Destek Forumu&lt;/p&gt;
-        	&lt;/aside&gt;
+            &lt;p&gt;Programlama Destek Forumu&lt;/p&gt;
+            &lt;/aside&gt;
         &lt;/section&gt;
         &lt;section&gt;
         &lt;footer&gt;
         &lt;!-- footer etiketi sitelerinizin alt kısmıdır. nav etiketini burda da kullanabilirsiniz. --&gt;
-        	&lt;p&gt;http://www.trkodlama.com&lt;/p&gt;
+            &lt;p&gt;http://www.trkodlama.com&lt;/p&gt;
         &lt;/footer&gt;
         &lt;/section&gt;
     &lt;/body&gt;
 &lt;/html&gt;</pre>
-Bu framework'ün çalışan demosuna <strong><a href="http://www.trkodlama.com/demo/html5_framework/index.html" target="_blank">buraya tıklayarak</a></strong> ulaşabilirsiniz.
+
+Bu framework'ün çalışan demosuna <strong><a href="http://www.trkodlama.com/demo/html5_framework/index.html" target="_blank" rel="noopener">buraya tıklayarak</a></strong> ulaşabilirsiniz.
 
 Umarım işinize yarar, kolay gelsin,

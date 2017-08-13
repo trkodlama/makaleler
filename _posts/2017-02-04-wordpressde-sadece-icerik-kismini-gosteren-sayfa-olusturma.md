@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/wordpressde-sadece-icerik-kismini-gosteren-sayfa-olusturma-6496.html
+  https://www.trkodlama.com/makaleler/wordpressde-sadece-icerik-kismini-gosteren-sayfa-olusturma-6496.html
 published: true
 post_date: 2017-02-04 00:52:18
 ---

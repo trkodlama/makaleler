@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/php-ile-xml-dosyayi-islemek-120.html
+  https://www.trkodlama.com/makaleler/php-ile-xml-dosyayi-islemek-120.html
 published: true
 post_date: 2011-03-17 16:10:03
 ---

@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/python/pythonda-matematiksel-moduller-math-cmath-6416.html
+  https://www.trkodlama.com/makaleler/pythonda-matematiksel-moduller-math-cmath-6416.html
 published: true
 post_date: 2017-01-26 07:45:11
 ---

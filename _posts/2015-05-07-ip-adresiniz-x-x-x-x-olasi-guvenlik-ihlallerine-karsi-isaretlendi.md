@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/ip-adresiniz-x-x-x-x-olasi-guvenlik-ihlallerine-karsi-isaretlendi-5726.html
+  https://www.trkodlama.com/makaleler/ip-adresiniz-x-x-x-x-olasi-guvenlik-ihlallerine-karsi-isaretlendi-5726.html
 published: true
 post_date: 2015-05-07 12:13:48
 ---

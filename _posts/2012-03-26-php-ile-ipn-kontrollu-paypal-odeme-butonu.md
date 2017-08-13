@@ -16,7 +16,7 @@ post_excerpt: >
   anlatıyorum.
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/paypal/php-ile-ipn-kontrollu-paypal-odeme-butonu-407.html
+  https://www.trkodlama.com/makaleler/php-ile-ipn-kontrollu-paypal-odeme-butonu-407.html
 published: true
 post_date: 2012-03-26 13:44:03
 ---

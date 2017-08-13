@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/linux/ssh-ile-mysql-tablosunu-onarma-1717.html
+  https://www.trkodlama.com/makaleler/ssh-ile-mysql-tablosunu-onarma-1717.html
 published: true
 post_date: 2013-05-23 21:42:20
 ---

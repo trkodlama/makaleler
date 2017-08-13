@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/web-tasarim-2/uyumlu-web-tasarim/google-recaptcha-responsiveuyumlu-tasarim-problemi-6323.html
+  https://www.trkodlama.com/web-tasarim-2/google-recaptcha-responsiveuyumlu-tasarim-problemi-6323.html
 published: true
 post_date: 2017-01-23 02:31:12
 ---

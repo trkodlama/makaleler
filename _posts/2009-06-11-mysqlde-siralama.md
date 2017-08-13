@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/yeni-baslayanlar/mysqlde-siralama-35.html
+  https://www.trkodlama.com/makaleler/mysqlde-siralama-35.html
 published: true
 post_date: 2009-06-11 07:18:54
 ---

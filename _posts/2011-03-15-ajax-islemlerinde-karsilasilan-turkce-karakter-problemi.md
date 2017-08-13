@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/ajax-islemlerinde-karsilasilan-turkce-karakter-problemi-105.html
+  https://www.trkodlama.com/makaleler/ajax-islemlerinde-karsilasilan-turkce-karakter-problemi-105.html
 published: true
 post_date: 2011-03-15 08:49:05
 ---

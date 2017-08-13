@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/varnish/varnishde-erisim-kayitlari-olusturma-5967.html
+  https://www.trkodlama.com/makaleler/varnishde-erisim-kayitlari-olusturma-5967.html
 published: true
 post_date: 2016-12-27 11:28:35
 ---

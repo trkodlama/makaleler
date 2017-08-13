@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/web-tasarim/google-translate-cevirmesin-31.html
+  https://www.trkodlama.com/makaleler/google-translate-cevirmesin-31.html
 published: true
 post_date: 2009-06-10 07:15:34
 ---

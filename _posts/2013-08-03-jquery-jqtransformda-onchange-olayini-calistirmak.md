@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/jquery/jquery-jqtransformda-onchange-olayini-calistirmak-1287.html
+  https://www.trkodlama.com/makaleler/jquery-jqtransformda-onchange-olayini-calistirmak-1287.html
 published: true
 post_date: 2013-08-03 18:51:20
 ---

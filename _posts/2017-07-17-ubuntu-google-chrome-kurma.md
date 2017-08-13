@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/ubuntu/ubuntu-google-chrome-kurma-9308.html
+  https://www.trkodlama.com/makaleler/ubuntu-google-chrome-kurma-9308.html
 published: true
 post_date: 2017-07-17 20:48:08
 ---

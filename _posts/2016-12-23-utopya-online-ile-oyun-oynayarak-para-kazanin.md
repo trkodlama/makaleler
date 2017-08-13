@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/blog/internetten-para-kazanin/utopya-online-ile-oyun-oynayarak-para-kazanin-5953.html
+  https://www.trkodlama.com/blog/utopya-online-ile-oyun-oynayarak-para-kazanin-5953.html
 published: true
 post_date: 2016-12-23 17:08:54
 ---

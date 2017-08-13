@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/magento/magento-2-yonetim-paneli-adresini-bulma-5939.html
+  https://www.trkodlama.com/makaleler/magento-2-yonetim-paneli-adresini-bulma-5939.html
 published: true
 post_date: 2016-12-14 22:54:21
 ---

@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/hexadecimal-renk-kodunu-rgb-formatina-cevirme-144.html
+  https://www.trkodlama.com/makaleler/hexadecimal-renk-kodunu-rgb-formatina-cevirme-144.html
 published: true
 post_date: 2011-04-06 17:48:33
 ---

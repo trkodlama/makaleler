@@ -5,7 +5,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/php/fatal-error-cannot-redeclare-function-hatasi-126.html
+  https://www.trkodlama.com/makaleler/fatal-error-cannot-redeclare-function-hatasi-126.html
 published: true
 post_date: 2011-03-19 17:06:22
 ---

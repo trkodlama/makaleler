@@ -8,7 +8,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/wordpress/yuklenen-dosya-php-ini-dosyasindaki-upload_max_filesize-direktifi-ile-belirtilen-limiti-asiyor-6548.html
+  https://www.trkodlama.com/makaleler/yuklenen-dosya-php-ini-dosyasindaki-upload_max_filesize-direktifi-ile-belirtilen-limiti-asiyor-6548.html
 published: true
 post_date: 2017-02-06 20:53:11
 ---
