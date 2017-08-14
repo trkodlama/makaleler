@@ -9,22 +9,20 @@ permalink: >
 published: true
 post_date: 2010-08-02 08:14:41
 ---
-Bir sayfada kullanıcı emaillerini göstermek istiyorsunuz ama tamamı gözükmesin mi istiyorsunuz? Ä°şte bu sansürleme fonksiyonu tam size göre.. Yaptığı işlem ise şu:
-Orjinal email: ounal@trkodlama.com
-Sansürlü email: o***l@trkodlama.com
+Bir sayfada kullanıcı emaillerini göstermek istiyorsunuz ama tamamı gözükmesin mi istiyorsunuz? İşte bu sansürleme fonksiyonu tam size göre.. Yaptığı işlem ise şu:
+<blockquote>Orjinal email: ounal@trkodlama.com
+
+Sansürlü email: o***l@trkodlama.com</blockquote>
 Hemen gerekli fonksiyonu sizlerle paylaşıyorum:
-[sourcecode lang="php"]function emailSansur($email, $isaret = &quot;*&quot;) {
- $diziEmail = explode(&quot;@&quot;, $email);
+<pre class="line-numbers"><code class="language-php">function emailSansur($email, $isaret = "*") {
+    $diziEmail = explode("@", $email);
 
- for ($i = 1; $i&lt;= (strlen($diziEmail[0]) - 2);$i++) {
-  $isaretEkle .= $isaret;
- }
+    for ($i = 1; $i&lt;= (strlen($diziEmail[0]) - 2);$i++) {
+        $isaretEkle .= $isaret;
+    }
 
- return $diziEmail[0]{0}.substr_replace($diziEmail[0], $isaretEkle, 0, strlen($diziEmail[0])).$diziEmail[0]{strlen($diziEmail[0])-1}.&quot;@&quot;.$diziEmail[1];
-}[/sourcecode]
-
-$isaret parametresini tanımladığınız anda sansürlenen yerlere tanımladığınız veri yazılacaktır. Mesela varsayılan olarak "*" tanımladım. Mailler o***l@trkodlam.com olacak. Siz "x" tanımlarsanızoxxxl@trkodlama.com olacaktır. Kullanımı çok basittir:
-
-[sourcecode lang="php"]emailSansur(&quot;ounal@trkodlama.com&quot;, &quot;TR&quot;); [/sourcecode]
-
+    return $diziEmail[0]{0}.substr_replace($diziEmail[0], $isaretEkle, 0, strlen($diziEmail[0])).$diziEmail[0]{strlen($diziEmail[0])-1}."@".$diziEmail[1];
+}</code></pre>
+<code>$isaret</code> parametresini tanımladığınız anda sansürlenen yerlere tanımladığınız veri yazılacaktır. Mesela varsayılan olarak "*" tanımladım. Mailler o***l@trkodlama.com olacak. Siz "x" tanımlarsanız oxxxl@trkodlama.com olacaktır. Kullanımı çok basittir:
+<pre class="line-numbers"><code class="language-php">emailSansur("ounal@trkodlama.com", "TR");</code></pre>
 Kolay gelsin,
