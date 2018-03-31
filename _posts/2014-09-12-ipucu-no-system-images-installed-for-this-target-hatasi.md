@@ -7,7 +7,7 @@ author: Oral ÜNAL
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.trkodlama.com/makaleler/ipucu-no-system-images-installed-for-this-target-hatasi-5687.html
+  http://www.trkodlama.com/makaleler/ipucu-no-system-images-installed-for-this-target-hatasi-5687.html
 published: true
 post_date: 2014-09-12 21:57:10
 ---
