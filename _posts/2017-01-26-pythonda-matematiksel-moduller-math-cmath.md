@@ -35,9 +35,9 @@ def sinus(x):
 sinus(math.pi/2) # ciktisi 1.0 olacaktır
 sinus(math.pi/4) # ciktisi 0.7071067811865475 olacaktır</code></pre>
 <strong><em>math</em></strong><em> </em>modülünde bulunan bir diğer faydalı fonksiyon ise <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">gcd(x,y)</span> fonksiyonudur. Bu fonksiyon en büyük ortak böleni yani EBOB i verecektir. <em>x</em> ve <em>y</em> eğer sıfırdan farklı iki tam sayı ise bu fonksiyon bu iki tamsayıyı bölen en büyük tam sayıyı verecektir. Bu fonksiyonu kullanarak aşağıdaki formül yardımıyla en küçük ortak katı yani EKOK u da rahatlıkla bulabilirsiniz:
-<pre class="lang:python decode:true prettyprint lang-text">gcd(a, b) x lcm(a, b) = a x b</pre>
+<pre class="line-numbers"><code class="language-python">gcd(a, b) x lcm(a, b) = a x b</code></pre>
 Python'un sunduğu aritmetik işlemlerden bir kaçını şöyle sıralayabiliriz:
-<pre class="lang:python decode:true prettyprint lang-python">import math
+<pre class="line-numbers"><code class="language-python">import math
  
 math.ceil(1.001)    # ciktisi 2
 math.floor(1.001)   # ciktisi 1
@@ -45,14 +45,14 @@ math.factorial(10)  # ciktisi 3628800
 math.gcd(10,125)    # ciktisi 5
  
 math.trunc(1.001)   # ciktisi 1
-math.trunc(1.999)   # ciktisi 1</pre>
+math.trunc(1.999)   # ciktisi 1</code></pre>
 <h2>Trigonometrik Fonksiyonlar</h2>
 Bu fonksiyonlar bir üçgenin açılarını kenar uzunluklarıyla ilişkilendirirler. Üçgen çalışmalar, ses, ışık ve manyetik dalgalar gibi periyodik olayların modellenmesinde trigonometrik fonksiyonlar kullanılır. Pythonda trigonometrik fonksiyonları kullanırken açı olarak <strong>radyan</strong> kullanmanız gerektiğini de unutmayın. <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">sin(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">cos(x)</span> ve <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">tan(x)</span> fonksiyonlarını kullanarak hesaplamaları rahatlıkla yapabilirsiniz. Fakat <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">cosec(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">sec(x)</span> ve <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">cot(x)</span> için ne yazık ki direk hesaplama yapan bir fonksiyon bulunmamaktadır.
 
 Ayrıca trigonometrik fonksiyonların terslerini sağlıyor bize. Ters trigonometrik fonksiyonlarımız şu şekildedir: <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">asin(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">acos(x)</span> ve <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">atan(x)</span>
 
 Pisagor teoremine aşina mısınız? Pisagor, hipotenüsün karesinin diğer iki kenarın karelerinin toplamına eşit olduğunu belirtmektedir. Hipotenüs aynı zamanda dik açılı üçgenin en büyük tarafıdır. Matematik modülü hipotenüs uzunluğunu hesaplamak için <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">hypot(a,b)</span> fonksiyonuna sahiptir.
-<pre class="lang:python decode:true prettyprint lang-python">import math
+<pre class="line-numbers"><code class="language-python">import math
  
 math.sin(math.pi/4)    # ciktisi 0.7071067811865476
 math.cos(math.pi)      # ciktisi -1.0
@@ -60,12 +60,12 @@ math.tan(math.pi/6)    # ciktisi 0.5773502691896257
 math.hypot(12,5)       # ciktisi 13.0
  
 math.atan(0.5773502691896257) # ciktisi 0.5235987755982988
-math.asin(0.7071067811865476) # ciktisi 0.7853981633974484</pre>
+math.asin(0.7071067811865476) # ciktisi 0.7853981633974484</code></pre>
 <h2>Hiperbolik Fonksiyonlar</h2>
 Hiperbolik fonksiyonlar, daire yerine bir hiperbola dayanan trigonometrik fonksiyonların analogudur. Trigonometride (cos b , sin b ) noktası bir birim çemberin noktalarını temsil eder. Hiperbolik fonksiyonlar da ise (cosh b , sinh b ) noktası bir eşkenar hiperbolün sağ yarısını oluşturan noktaları temsil etmektedir.
 
 Trigonometrik fonksiyonlarda olduğu benzer fonksiyonlar hiperbolik fonksiyonlar için de geçerlidir: <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">sinh(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">cosh(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">tanh(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">asinh(x)</span>, <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">acosh(x)</span> ve <span class="lang:python decode:true lang-python data-highlight: data-caption: crayon-inline">atanh(x)</span>
-<pre class="lang:python decode:true prettyprint lang-python">import math
+<pre class="line-numbers"><code class="language-python">import math
  
 math.sinh(math.pi)    # ciktisi 11.548739357257746
 math.cosh(math.pi)    # ciktisi 11.591953275521519
@@ -73,7 +73,7 @@ math.cosh(math.pi)    # ciktisi 0.99627207622075
  
 math.asinh(11.548739357257746)   # ciktisi 3.141592653589793
 math.acosh(11.591953275521519)   # ciktisi 3.141592653589793
-math.atanh(0.99627207622075)     # ciktisi 3.141592653589798</pre>
+math.atanh(0.99627207622075)     # ciktisi 3.141592653589798</code></pre>
 <h2>Üstel ve Logaritmik Fonksiyonlar</h2>
 Muhtemelen program geliştirirken trigonometrik veya hiperbolikten ziyade üstel ve logaritmik fonksiyonlarla uğraşacaksınız. Neyse ki, matematik  modülü bize logaritma hesaplamak için bir çok fonksiyon sağlıyor.
 
