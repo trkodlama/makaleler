@@ -1,6 +1,6 @@
 ---
 ID: 6496
-post_title: 'WordPress&#8217;de Sadece İçerik Kısmını Gösteren Sayfa Oluşturma'
+post_title: 'WordPress&#8217;de Sadece İçerik Kısmını Gösteren Sayfa Oluşturma2'
 author: Oral ÜNAL
 post_excerpt: ""
 layout: post
